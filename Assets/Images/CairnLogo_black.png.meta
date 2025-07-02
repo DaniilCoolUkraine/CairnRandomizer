@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 119f7ad91fdca9644b0b715a6759029e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5708884598096204399
+    second: CairnLogo2.0_Cairn 2.0 Logo_0
+  - first:
+      213: 6967562463727896712
+    second: CairnLogo2.0_Cairn 2.0 Logo_1
+  - first:
+      213: -938439652352804854
+    second: CairnLogo2.0_Cairn 2.0 Logo_2
+  - first:
+      213: -6603215995291095935
+    second: CairnLogo2.0_Cairn 2.0 Logo_3
+  - first:
+      213: 5994575298647040335
+    second: CairnLogo2.0_Cairn 2.0 Logo_4
+  - first:
+      213: -8926896687807400859
+    second: CairnLogo2.0_Cairn 2.0 Logo_5
+  - first:
+      213: 5149160473529639826
+    second: CairnLogo2.0_Cairn 2.0 Logo_6
+  - first:
+      213: -6849147797785932622
+    second: CairnLogo2.0_Cairn 2.0 Logo_7
+  - first:
+      213: -1662547947182312388
+    second: CairnLogo2.0_Cairn 2.0 Logo_8
+  - first:
+      213: -7878345685152507039
+    second: CairnLogo2.0_Cairn 2.0 Logo_9
+  - first:
+      213: -8135670349710688322
+    second: CairnLogo2.0_Cairn 2.0 Logo_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_0
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1289
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6219358b480a3f40800000000000000
+      internalID: 5708884598096204399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_1
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1146
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c8d02521c1b060800000000000000
+      internalID: 6967562463727896712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_2
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1160
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08be56bb1ef9f2f0800000000000000
+      internalID: -938439652352804854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 193
+        width: 558
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c2f71a90aac54a0800000000000000
+      internalID: -6603215995291095935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_4
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 863
+        width: 172
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4120373972013350800000000000000
+      internalID: 5994575298647040335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 192
+        width: 312
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564f0a852ca4d1480800000000000000
+      internalID: -8926896687807400859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_6
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 691
+        width: 162
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29367345b2e757740800000000000000
+      internalID: 5149160473529639826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_7
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 193
+        width: 276
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc02d2cd50f2f0a0800000000000000
+      internalID: -6849147797785932622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_8
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 154
+        width: 362
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34b42a53717de8e0800000000000000
+      internalID: -1662547947182312388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_9
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 638
+        width: 134
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bd0c2375e7aa290800000000000000
+      internalID: -7878345685152507039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CairnLogo2.0_Cairn 2.0 Logo_10
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 154
+        width: 128
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebff0dbebea481f80800000000000000
+      internalID: -8135670349710688322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CairnLogo2.0_Cairn 2.0 Logo_0: 5708884598096204399
+      CairnLogo2.0_Cairn 2.0 Logo_1: 6967562463727896712
+      CairnLogo2.0_Cairn 2.0 Logo_10: -8135670349710688322
+      CairnLogo2.0_Cairn 2.0 Logo_2: -938439652352804854
+      CairnLogo2.0_Cairn 2.0 Logo_3: -6603215995291095935
+      CairnLogo2.0_Cairn 2.0 Logo_4: 5994575298647040335
+      CairnLogo2.0_Cairn 2.0 Logo_5: -8926896687807400859
+      CairnLogo2.0_Cairn 2.0 Logo_6: 5149160473529639826
+      CairnLogo2.0_Cairn 2.0 Logo_7: -6849147797785932622
+      CairnLogo2.0_Cairn 2.0 Logo_8: -1662547947182312388
+      CairnLogo2.0_Cairn 2.0 Logo_9: -7878345685152507039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
