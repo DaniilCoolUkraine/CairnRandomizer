@@ -16,5 +16,6 @@ namespace CairnRandomizer.RollData.Traits
         public List<string> Vice;
         public List<string> Reputation;
         public List<string> Misfortunes;
+        public List<string> Backgrounds;
     }
 }

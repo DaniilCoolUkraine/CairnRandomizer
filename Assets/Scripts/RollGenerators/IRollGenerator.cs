@@ -4,6 +4,6 @@ namespace CairnRandomizer.RollGenerators
 {
     public interface IRollGenerator
     {
-        public string Roll(RollDataTable dataTable);
+        public IRollData Roll(RollDataTable dataTable);
     }
 }
