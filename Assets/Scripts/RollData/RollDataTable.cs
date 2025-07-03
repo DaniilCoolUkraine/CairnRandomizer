@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using CairnRandomizer.RollData.Equipment;
+using UnityEngine;
 
 namespace CairnRandomizer.RollData
 {

@@ -1,11 +1,12 @@
 ﻿using Sirenix.OdinInspector;
 
-namespace CairnRandomizer.RollData
+namespace CairnRandomizer.RollData.Equipment
 {
     [System.Serializable]
     public abstract class EquipmentData
     {
         public string Name;
+        public int Id;
         public bool IsBulky;
     }
 

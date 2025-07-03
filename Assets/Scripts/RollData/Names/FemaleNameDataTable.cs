@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace CairnRandomizer.RollData.Names
 {
-    [CreateAssetMenu(fileName = nameof(FemaleNameDataTable), menuName = "RollData/"+nameof(FemaleNameDataTable))]
+    [CreateAssetMenu(fileName = nameof(FemaleNameDataTable), menuName = "RollData/Names/"+nameof(FemaleNameDataTable))]
     public sealed class FemaleNameDataTable : ScriptableObject, INameDataTable 
     {
         [field:SerializeField] public List<string> Names { get; private set; }
