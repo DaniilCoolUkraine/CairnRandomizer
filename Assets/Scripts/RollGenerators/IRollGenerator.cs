@@ -1,4 +1,5 @@
 ﻿using CairnRandomizer.RollData;
+using CairnRandomizer.RollGenerators.GeneratorData;
 
 namespace CairnRandomizer.RollGenerators
 {

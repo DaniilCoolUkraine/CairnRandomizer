@@ -1,4 +1,4 @@
-﻿namespace CairnRandomizer.RollGenerators
+﻿namespace CairnRandomizer.RollGenerators.GeneratorData
 {
     public class TraitRollData : IRollData
     {

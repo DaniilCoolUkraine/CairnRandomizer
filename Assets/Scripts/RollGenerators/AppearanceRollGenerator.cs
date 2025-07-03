@@ -1,6 +1,7 @@
 ﻿using CairnRandomizer.General;
 using CairnRandomizer.RollData;
 using CairnRandomizer.RollData.Names;
+using CairnRandomizer.RollGenerators.GeneratorData;
 using UnityEngine;
 
 namespace CairnRandomizer.RollGenerators
