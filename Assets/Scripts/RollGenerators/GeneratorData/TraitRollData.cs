@@ -14,8 +14,9 @@
         public string Face { get; }
         public string Hair { get; }
         public string Skin { get; }
+        public int Age { get; }
 
-        public TraitRollData(string name, string backgrounds, string misfortunes, string reputation, string vice, string virtue, string clothing, string speech, string face, string hair, string skin)
+        public TraitRollData(string name, string backgrounds, string misfortunes, string reputation, string vice, string virtue, string clothing, string speech, string face, string hair, string skin, int age)
         {
             Name = name;
             Backgrounds = backgrounds;
@@ -28,6 +29,7 @@
             Face = face;
             Hair = hair;
             Skin = skin;
+            Age = age;
         }
     }
 }

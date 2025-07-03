@@ -15,6 +15,7 @@ MonoBehaviour:
   EquipmentList:
   - rid: 1506001151321440329
   - rid: 1506001151321440330
+  - rid: 1506001156067819520
   - rid: 1506001151321440331
   - rid: 1506001151321440332
   - rid: 1506001151321440333
@@ -34,62 +35,69 @@ MonoBehaviour:
   - rid: 1506001151321440347
   - rid: 1506001151321440348
   - rid: 1506001151321440349
-  - rid: 1506001151321440350
-  - rid: 1506001151321440351
-  - rid: 1506001151321440352
-  - rid: 1506001151321440353
-  - rid: 1506001151321440354
-  - rid: 1506001151321440355
   - rid: 1506001151321440356
-  - rid: 1506001151321440357
-  - rid: 1506001151321440358
-  - rid: 1506001151321440359
-  - rid: 1506001151321440360
-  - rid: 1506001151321440362
-  - rid: 1506001151321440363
-  - rid: 1506001151321440364
-  - rid: 1506001151321440365
-  - rid: 1506001151321440366
-  - rid: 1506001151321440367
-  - rid: 1506001151321440368
-  - rid: 1506001151321440369
-  - rid: 1506001151321440370
-  - rid: 1506001151321440371
-  - rid: 1506001151321440372
-  - rid: 1506001151321440373
   - rid: 1506001151321440374
-  - rid: 1506001151321440375
-  - rid: 1506001151321440376
-  - rid: 1506001151321440377
-  - rid: 1506001151321440378
-  - rid: 1506001151321440379
-  - rid: 1506001151321440380
-  - rid: 1506001151321440381
-  - rid: 1506001151321440382
-  - rid: 1506001151321440383
-  - rid: 1506001151321440384
-  - rid: 1506001151321440385
   - rid: 1506001151321440386
-  - rid: 1506001151321440387
-  - rid: 1506001151321440388
-  - rid: 1506001151321440389
-  - rid: 1506001151321440390
-  - rid: 1506001151321440391
-  - rid: 1506001151321440392
-  - rid: 1506001151321440393
-  - rid: 1506001151321440394
-  - rid: 1506001151321440395
-  - rid: 1506001151321440396
-  - rid: 1506001151321440397
-  - rid: 1506001151321440398
-  - rid: 1506001151321440399
-  - rid: 1506001151321440400
-  - rid: 1506001151321440401
-  - rid: 1506001151321440402
-  - rid: 1506001151321440403
-  - rid: 1506001151321440404
   - rid: 1506001151321440405
-  - rid: 1506001151321440406
+  - rid: 1506001156067819594
+  - rid: 1506001156067819595
+  - rid: 1506001156067819596
+  - rid: 1506001156067819597
+  - rid: 1506001156067819598
+  - rid: 1506001156067819599
+  - rid: 1506001156067819600
+  - rid: 1506001156067819601
+  - rid: 1506001156067819602
+  - rid: 1506001156067819603
+  - rid: 1506001156067819604
+  - rid: 1506001156067819605
+  - rid: 1506001156067819606
+  - rid: 1506001156067819607
+  - rid: 1506001156067819608
+  - rid: 1506001156067819609
+  - rid: 1506001156067819610
+  - rid: 1506001156067819611
+  - rid: 1506001156067819612
+  - rid: 1506001156067819613
+  - rid: 1506001156067819614
+  - rid: 1506001156067819615
+  - rid: 1506001156067819616
+  - rid: 1506001156067819617
+  - rid: 1506001156067819618
+  - rid: 1506001156067819619
+  - rid: 1506001156067819620
+  - rid: 1506001156067819621
+  - rid: 1506001156067819622
+  - rid: 1506001156067819623
+  - rid: 1506001156067819624
+  - rid: 1506001156067819625
+  - rid: 1506001156067819626
+  - rid: 1506001156067819627
+  - rid: 1506001156067819628
+  - rid: 1506001156067819629
+  - rid: 1506001156067819630
+  - rid: 1506001156067819631
+  - rid: 1506001156067819632
+  - rid: 1506001156067819633
+  - rid: 1506001156067819634
+  - rid: 1506001156067819635
+  - rid: 1506001156067819636
+  - rid: 1506001156067819637
+  - rid: 1506001156067819638
+  - rid: 1506001156067819639
+  - rid: 1506001156067819641
+  - rid: 1506001156067819642
+  - rid: 1506001156067819643
+  - rid: 1506001156067819644
+  - rid: 1506001156067819645
+  - rid: 1506001156067819646
+  - rid: 1506001156067819647
+  - rid: 1506001156067819648
+  - rid: 1506001156067819649
+  - rid: 1506001156067819650
+  - rid: 1506001156067819651
+  - rid: 1506001156067819652
+  - rid: 1506001156067819653
   references:
     version: 2
     RefIds:
@@ -100,6 +108,8 @@ MonoBehaviour:
         Id: 0
         IsBulky: 0
         Armor: 1
+        IsSecondary: 1
+        <Tier>k__BackingField: 3
     - rid: 1506001151321440330
       type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
@@ -107,495 +117,571 @@ MonoBehaviour:
         Id: 1
         IsBulky: 0
         Armor: 1
+        IsSecondary: 1
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440331
       type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Gambeson
-        Id: 2
+        Id: 3
         IsBulky: 0
         Armor: 1
+        IsSecondary: 0
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440332
       type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Brigandine
-        Id: 3
+        Id: 4
         IsBulky: 1
         Armor: 1
+        IsSecondary: 0
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440333
       type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Chainmail
-        Id: 4
+        Id: 5
         IsBulky: 1
         Armor: 1
+        IsSecondary: 0
+        <Tier>k__BackingField: 3
     - rid: 1506001151321440334
       type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Plate
-        Id: 5
+        Id: 6
         IsBulky: 1
         Armor: 3
+        IsSecondary: 0
+        <Tier>k__BackingField: 4
     - rid: 1506001151321440335
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Dagger
-        Id: 6
-        IsBulky: 0
-        DiceAmount: 1
-        Dice: 1
-    - rid: 1506001151321440336
-      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Cudgel
         Id: 7
         IsBulky: 0
         DiceAmount: 1
         Dice: 1
-    - rid: 1506001151321440337
+        <Tier>k__BackingField: 1
+    - rid: 1506001151321440336
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
-        Name: Sickle
+        Name: Cudgel
         Id: 8
         IsBulky: 0
         DiceAmount: 1
         Dice: 1
-    - rid: 1506001151321440338
+        <Tier>k__BackingField: 1
+    - rid: 1506001151321440337
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
-        Name: Staff
+        Name: Sickle
         Id: 9
         IsBulky: 0
         DiceAmount: 1
         Dice: 1
+        <Tier>k__BackingField: 1
+    - rid: 1506001151321440338
+      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Staff
+        Id: 10
+        IsBulky: 0
+        DiceAmount: 1
+        Dice: 1
+        <Tier>k__BackingField: 1
     - rid: 1506001151321440339
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Spear
-        Id: 10
+        Id: 11
         IsBulky: 0
         DiceAmount: 1
         Dice: 2
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440340
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Sword
-        Id: 11
+        Id: 12
         IsBulky: 0
         DiceAmount: 1
         Dice: 1
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440341
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Mace
-        Id: 12
-        IsBulky: 0
-        DiceAmount: 1
-        Dice: 2
-    - rid: 1506001151321440342
-      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Axe
         Id: 13
         IsBulky: 0
         DiceAmount: 1
         Dice: 2
-    - rid: 1506001151321440343
+        <Tier>k__BackingField: 2
+    - rid: 1506001151321440342
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
-        Name: Flail
+        Name: Axe
         Id: 14
         IsBulky: 0
         DiceAmount: 1
         Dice: 2
+        <Tier>k__BackingField: 2
+    - rid: 1506001151321440343
+      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Flail
+        Id: 15
+        IsBulky: 0
+        DiceAmount: 1
+        Dice: 2
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440344
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Halberd
-        Id: 15
-        IsBulky: 1
-        DiceAmount: 1
-        Dice: 3
-    - rid: 1506001151321440345
-      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: WarHammer
         Id: 16
         IsBulky: 1
         DiceAmount: 1
         Dice: 3
-    - rid: 1506001151321440346
+        <Tier>k__BackingField: 4
+    - rid: 1506001151321440345
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
-        Name: LongSword
+        Name: WarHammer
         Id: 17
         IsBulky: 1
         DiceAmount: 1
         Dice: 3
+        <Tier>k__BackingField: 4
+    - rid: 1506001151321440346
+      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: LongSword
+        Id: 18
+        IsBulky: 1
+        DiceAmount: 1
+        Dice: 3
+        <Tier>k__BackingField: 4
     - rid: 1506001151321440347
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Sling
-        Id: 18
+        Id: 19
         IsBulky: 0
         DiceAmount: 1
         Dice: 0
+        <Tier>k__BackingField: 1
     - rid: 1506001151321440348
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Bow
-        Id: 19
+        Id: 20
         IsBulky: 1
         DiceAmount: 1
         Dice: 1
+        <Tier>k__BackingField: 2
     - rid: 1506001151321440349
       type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Crossbow
-        Id: 20
+        Id: 21
         IsBulky: 1
         DiceAmount: 1
         Dice: 2
-    - rid: 1506001151321440350
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: AirBladder
-        Id: 21
-        IsBulky: 0
-    - rid: 1506001151321440351
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Bellows
-        Id: 22
-        IsBulky: 0
-    - rid: 1506001151321440352
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Bedroll
-        Id: 23
-        IsBulky: 0
-    - rid: 1506001151321440353
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Book
-        Id: 24
-        IsBulky: 0
-    - rid: 1506001151321440354
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Bucket
-        Id: 25
-        IsBulky: 0
-    - rid: 1506001151321440355
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Caltrops
-        Id: 26
-        IsBulky: 0
+        <Tier>k__BackingField: 3
     - rid: 1506001151321440356
       type: {class: StorageData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Cart
-        Id: 27
+        Id: 22
         IsBulky: 1
         Storage: 4
         IsSlow: 0
-    - rid: 1506001151321440357
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Chain
-        Id: 28
-        IsBulky: 0
-    - rid: 1506001151321440358
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Chalk
-        Id: 29
-        IsBulky: 0
-    - rid: 1506001151321440359
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Chisel
-        Id: 30
-        IsBulky: 0
-    - rid: 1506001151321440360
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: CookPots
-        Id: 31
-        IsBulky: 0
-    - rid: 1506001151321440362
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Crowbar
-        Id: 32
-        IsBulky: 0
-    - rid: 1506001151321440363
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Drill
-        Id: 33
-        IsBulky: 0
-    - rid: 1506001151321440364
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: FacePaint
-        Id: 34
-        IsBulky: 0
-    - rid: 1506001151321440365
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: FireOil
-        Id: 35
-        IsBulky: 0
-    - rid: 1506001151321440366
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: FishingRod
-        Id: 36
-        IsBulky: 0
-    - rid: 1506001151321440367
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: GlassMarbles
-        Id: 37
-        IsBulky: 0
-    - rid: 1506001151321440368
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Glue
-        Id: 38
-        IsBulky: 0
-    - rid: 1506001151321440369
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Grease
-        Id: 39
-        IsBulky: 0
-    - rid: 1506001151321440370
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: GrapplingHook
-        Id: 40
-        IsBulky: 0
-    - rid: 1506001151321440371
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Hammer
-        Id: 41
-        IsBulky: 0
-    - rid: 1506001151321440372
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: HolyWater
-        Id: 42
-        IsBulky: 0
-    - rid: 1506001151321440373
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Horn
-        Id: 43
-        IsBulky: 0
     - rid: 1506001151321440374
       type: {class: StorageData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Horse
-        Id: 44
+        Id: 23
         IsBulky: 0
         Storage: 4
         IsSlow: 0
-    - rid: 1506001151321440375
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Hourglass
-        Id: 45
-        IsBulky: 0
-    - rid: 1506001151321440376
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Incense
-        Id: 46
-        IsBulky: 0
-    - rid: 1506001151321440377
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Ladder
-        Id: 47
-        IsBulky: 1
-    - rid: 1506001151321440378
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: LanternOil
-        Id: 48
-        IsBulky: 0
-    - rid: 1506001151321440379
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: LargeTrap
-        Id: 49
-        IsBulky: 0
-    - rid: 1506001151321440380
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: LargeSponge
-        Id: 50
-        IsBulky: 0
-    - rid: 1506001151321440381
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Lens
-        Id: 51
-        IsBulky: 0
-    - rid: 1506001151321440382
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Lockpicks
-        Id: 52
-        IsBulky: 0
-    - rid: 1506001151321440383
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Manacles
-        Id: 53
-        IsBulky: 0
-    - rid: 1506001151321440384
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: MetalFile
-        Id: 54
-        IsBulky: 0
-    - rid: 1506001151321440385
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Mirror
-        Id: 55
-        IsBulky: 0
     - rid: 1506001151321440386
       type: {class: StorageData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Mule
-        Id: 56
+        Id: 24
         IsBulky: 0
         Storage: 6
         IsSlow: 1
-    - rid: 1506001151321440387
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Net
-        Id: 57
-        IsBulky: 0
-    - rid: 1506001151321440388
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: OilskinBag
-        Id: 58
-        IsBulky: 0
-    - rid: 1506001151321440389
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Pick
-        Id: 59
-        IsBulky: 0
-    - rid: 1506001151321440390
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Pulley
-        Id: 60
-        IsBulky: 0
-    - rid: 1506001151321440391
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Pole
-        Id: 61
-        IsBulky: 0
-    - rid: 1506001151321440392
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: QuillInk
-        Id: 62
-        IsBulky: 0
-    - rid: 1506001151321440393
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Rations
-        Id: 63
-        IsBulky: 0
-    - rid: 1506001151321440394
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Rope
-        Id: 64
-        IsBulky: 0
-    - rid: 1506001151321440395
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Saw
-        Id: 65
-        IsBulky: 0
-    - rid: 1506001151321440396
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Sack
-        Id: 66
-        IsBulky: 0
-    - rid: 1506001151321440397
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Shovel
-        Id: 67
-        IsBulky: 0
-    - rid: 1506001151321440398
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Soap
-        Id: 68
-        IsBulky: 0
-    - rid: 1506001151321440399
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Spike
-        Id: 69
-        IsBulky: 0
-    - rid: 1506001151321440400
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: SpikedBoots
-        Id: 70
-        IsBulky: 0
-    - rid: 1506001151321440401
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Spyglass
-        Id: 71
-        IsBulky: 0
-    - rid: 1506001151321440402
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Tar
-        Id: 72
-        IsBulky: 0
-    - rid: 1506001151321440403
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Tent
-        Id: 73
-        IsBulky: 1
-    - rid: 1506001151321440404
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Torch
-        Id: 74
-        IsBulky: 0
     - rid: 1506001151321440405
       type: {class: StorageData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Wagon
-        Id: 75
+        Id: 25
         IsBulky: 0
         Storage: 8
         IsSlow: 1
-    - rid: 1506001151321440406
-      type: {class: ItemData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+    - rid: 1506001156067819520
+      type: {class: ArmorData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: HelmetShield
+        Id: 2
+        IsBulky: 0
+        Armor: 2
+        IsSecondary: 1
+        <Tier>k__BackingField: 4
+    - rid: 1506001156067819594
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: AirBladder
+        Id: 26
+        IsBulky: 0
+    - rid: 1506001156067819595
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Antitoxin
+        Id: 27
+        IsBulky: 0
+    - rid: 1506001156067819596
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Chain
+        Id: 28
+        IsBulky: 0
+    - rid: 1506001156067819597
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: DowsingRod
+        Id: 29
+        IsBulky: 0
+    - rid: 1506001156067819598
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: FireOil
+        Id: 30
+        IsBulky: 0
+    - rid: 1506001156067819599
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: GrapplingHook
+        Id: 31
+        IsBulky: 0
+    - rid: 1506001156067819600
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: LargeSack
+        Id: 32
+        IsBulky: 0
+    - rid: 1506001156067819601
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: LargeTrap
+        Id: 33
+        IsBulky: 0
+    - rid: 1506001156067819602
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Lockpicks
+        Id: 34
+        IsBulky: 0
+    - rid: 1506001156067819603
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Manacles
+        Id: 35
+        IsBulky: 0
+    - rid: 1506001156067819604
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Pick
+        Id: 36
+        IsBulky: 0
+    - rid: 1506001156067819605
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Pole
+        Id: 37
+        IsBulky: 0
+    - rid: 1506001156067819606
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Pulley
+        Id: 38
+        IsBulky: 0
+    - rid: 1506001156067819607
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Repellent
+        Id: 39
+        IsBulky: 0
+    - rid: 1506001156067819608
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Rope
+        Id: 40
+        IsBulky: 0
+    - rid: 1506001156067819609
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: SpiritWard
+        Id: 41
+        IsBulky: 0
+    - rid: 1506001156067819610
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Spyglass
+        Id: 42
+        IsBulky: 0
+    - rid: 1506001156067819611
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Tinderbox
+        Id: 43
+        IsBulky: 0
+    - rid: 1506001156067819612
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
         Name: Wolfsbane
+        Id: 44
+        IsBulky: 0
+    - rid: 1506001156067819613
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Bellows
+        Id: 45
+        IsBulky: 0
+    - rid: 1506001156067819614
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Bucket
+        Id: 46
+        IsBulky: 0
+    - rid: 1506001156067819615
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Caltrops
+        Id: 47
+        IsBulky: 0
+    - rid: 1506001156067819616
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Chalk
+        Id: 48
+        IsBulky: 0
+    - rid: 1506001156067819617
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Chisel
+        Id: 49
+        IsBulky: 0
+    - rid: 1506001156067819618
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: CookPots
+        Id: 50
+        IsBulky: 0
+    - rid: 1506001156067819619
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Crowbar
+        Id: 51
+        IsBulky: 0
+    - rid: 1506001156067819620
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Drill
+        Id: 52
+        IsBulky: 0
+    - rid: 1506001156067819621
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: FishingRod
+        Id: 53
+        IsBulky: 0
+    - rid: 1506001156067819622
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Glue
+        Id: 54
+        IsBulky: 0
+    - rid: 1506001156067819623
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Grease
+        Id: 55
+        IsBulky: 0
+    - rid: 1506001156067819624
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Hammer
+        Id: 56
+        IsBulky: 0
+    - rid: 1506001156067819625
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Hourglass
+        Id: 57
+        IsBulky: 0
+    - rid: 1506001156067819626
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: MetalFile
+        Id: 58
+        IsBulky: 0
+    - rid: 1506001156067819627
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Nails
+        Id: 59
+        IsBulky: 0
+    - rid: 1506001156067819628
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Net
+        Id: 60
+        IsBulky: 0
+    - rid: 1506001156067819629
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Saw
+        Id: 61
+        IsBulky: 0
+    - rid: 1506001156067819630
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Sealant
+        Id: 62
+        IsBulky: 0
+    - rid: 1506001156067819631
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Shovel
+        Id: 63
+        IsBulky: 0
+    - rid: 1506001156067819632
+      type: {class: ToolData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Tongs
+        Id: 64
+        IsBulky: 0
+    - rid: 1506001156067819633
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Bottle
+        Id: 65
+        IsBulky: 0
+    - rid: 1506001156067819634
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: CardDeck
+        Id: 66
+        IsBulky: 0
+    - rid: 1506001156067819635
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: DiceSet
+        Id: 67
+        IsBulky: 0
+    - rid: 1506001156067819636
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: FacePaint
+        Id: 68
+        IsBulky: 0
+    - rid: 1506001156067819637
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: FakeJewels
+        Id: 69
+        IsBulky: 0
+    - rid: 1506001156067819638
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Horn
+        Id: 70
+        IsBulky: 0
+    - rid: 1506001156067819639
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Incense
+        Id: 71
+        IsBulky: 0
+    - rid: 1506001156067819641
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Instrument
+        Id: 72
+        IsBulky: 0
+    - rid: 1506001156067819642
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Lens
+        Id: 73
+        IsBulky: 0
+    - rid: 1506001156067819643
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Marbles
+        Id: 74
+        IsBulky: 0
+    - rid: 1506001156067819644
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Mirror
+        Id: 75
+        IsBulky: 0
+    - rid: 1506001156067819645
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Perfume
         Id: 76
+        IsBulky: 0
+    - rid: 1506001156067819646
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: QuillInk
+        Id: 77
+        IsBulky: 0
+    - rid: 1506001156067819647
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: SaltPack
+        Id: 78
+        IsBulky: 0
+    - rid: 1506001156067819648
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: SmallBell
+        Id: 79
+        IsBulky: 0
+    - rid: 1506001156067819649
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Soap
+        Id: 80
+        IsBulky: 0
+    - rid: 1506001156067819650
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Sponge
+        Id: 81
+        IsBulky: 0
+    - rid: 1506001156067819651
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: TarPot
+        Id: 82
+        IsBulky: 0
+    - rid: 1506001156067819652
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Twine
+        Id: 83
+        IsBulky: 0
+    - rid: 1506001156067819653
+      type: {class: TrinketsData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Whistle
+        Id: 84
         IsBulky: 0

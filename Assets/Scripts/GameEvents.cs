@@ -6,34 +6,23 @@ namespace CairnRandomizer
     {
     }
 
-    public abstract class RollCompleted : IEvent
+    public class AppearanceRollCompleted : IEvent
     {
-        public string Text { get; }
+        public string Background { get; }
+        public string Misfortune { get; }
 
-        public RollCompleted(string text)
+        public AppearanceRollCompleted(string background, string misfortune)
         {
-            Text = text;
-        }
-    }
-        
-    public class AppearanceRollCompleted : RollCompleted
-    {
-        public AppearanceRollCompleted(string text) : base(text)
-        {
+            Background = background;
+            Misfortune = misfortune;
         }
     }
     
-    public class AttributesRollCompleted : RollCompleted
+    public class AttributesRollCompleted
     {
-        public AttributesRollCompleted(string text) : base(text)
-        {
-        }
     }
     
-    public class EquipmentRollCompleted : RollCompleted
+    public class EquipmentRollCompleted
     {
-        public EquipmentRollCompleted(string text) : base(text)
-        {
-        }
     }
 }

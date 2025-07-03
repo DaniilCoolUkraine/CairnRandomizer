@@ -8,7 +8,7 @@ namespace CairnRandomizer.RollGenerators
     {
         public IRollData Roll(RollDataTable dataTable)
         {
-            return new StatsRollData(new[] { RollForStat(), RollForStat(), RollForStat() });
+            return new StatsRollData(new[] { RollForStat(), RollForStat(), RollForStat(), RollForStat() });
         }
 
         private int RollForStat()

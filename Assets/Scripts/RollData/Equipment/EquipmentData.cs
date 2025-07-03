@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using UnityEngine;
 
 namespace CairnRandomizer.RollData.Equipment
 {
@@ -11,21 +12,41 @@ namespace CairnRandomizer.RollData.Equipment
     }
 
     [System.Serializable]
-    public class ItemData : EquipmentData
+    public class TrinketsData : EquipmentData
+    {
+    }
+    
+    [System.Serializable]
+    public class GearData : EquipmentData
     {
     }
 
     [System.Serializable]
-    public class WeaponData : EquipmentData
+    public class ToolData : EquipmentData
+    {
+    }
+
+    public interface ITierable
+    {
+        int Tier { get; }
+    }
+    
+    [System.Serializable]
+    public class WeaponData : EquipmentData, ITierable
     {
         [MinValue(1)] public int DiceAmount;
         public DiceType Dice;
+        
+        [field:SerializeField] public int Tier { get; private set; }
     }
 
     [System.Serializable]
-    public class ArmorData : EquipmentData
+    public class ArmorData : EquipmentData, ITierable
     {
         [MinValue(1)] public int Armor;
+        public bool IsSecondary;
+
+        [field:SerializeField] public int Tier { get; private set; }
     }
 
     [System.Serializable]

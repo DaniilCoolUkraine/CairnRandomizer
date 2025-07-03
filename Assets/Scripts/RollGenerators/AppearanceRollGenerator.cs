@@ -2,6 +2,7 @@
 using CairnRandomizer.RollData;
 using CairnRandomizer.RollData.Names;
 using CairnRandomizer.RollGenerators.GeneratorData;
+using SimpleEventBus.SimpleEventBus.Runtime;
 using UnityEngine;
 
 namespace CairnRandomizer.RollGenerators
@@ -10,7 +11,7 @@ namespace CairnRandomizer.RollGenerators
     {
         public IRollData Roll(RollDataTable dataTable)
         {
-            return new TraitRollData(
+            var roll = new TraitRollData(
                 GetName(dataTable), 
                 dataTable.TraitsDataTable.Backgrounds.GetRandomElement(),
                 dataTable.TraitsDataTable.Misfortunes.GetRandomElement(),
@@ -21,13 +22,23 @@ namespace CairnRandomizer.RollGenerators
                 dataTable.TraitsDataTable.Speech.GetRandomElement(), 
                 dataTable.TraitsDataTable.Face.GetRandomElement(),
                 dataTable.TraitsDataTable.Hair.GetRandomElement(), 
-                dataTable.TraitsDataTable.Skin.GetRandomElement());
+                dataTable.TraitsDataTable.Skin.GetRandomElement(),
+                GetAge());
+
+            GlobalEvents.Publish(new AppearanceRollCompleted(roll.Backgrounds, roll.Misfortunes));
+
+            return roll;
         }
 
         private string GetName(RollDataTable dataTable)
         {
             INameDataTable genderName = Random.Range(0, 101) > 50 ? dataTable.MaleNameDataTable : dataTable.FemaleNameDataTable;
             return $"{genderName.Names.GetRandomElement()} {dataTable.SurnameDataTable.Names.GetRandomElement()}";
+        }
+
+        private int GetAge()
+        {
+            return Random.Range(0, 21) + Random.Range(0, 21) + 10;
         }
     }
 }
