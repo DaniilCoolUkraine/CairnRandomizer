@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19bec5e15cb49a2bc386c479ab7c798, type: 3}
+  m_Name: TraitsDataTable
+  m_EditorClassIdentifier: 
+  Physique:
+  - Athletic
+  - Brawny
+  - Flabby
+  - Lanky
+  - Rugged
+  - Scrawny
+  - Short
+  - Statuesque
+  - Stout
+  - Towering
+  Skin:
+  - Birthmark
+  - Dark
+  - Elongated
+  - Pockmarked
+  - Rosy
+  - Round
+  - Soft
+  - Tanned
+  - Tattooed
+  - Weathered
+  Hair:
+  - Bald
+  - Braided
+  - Curly
+  - Filthy
+  - Frizzy
+  - Long
+  - Luxurious
+  - Oily
+  - Wavy
+  - Wispy
+  Face:
+  - Bony
+  - Broken
+  - Chiseled
+  - Elongated
+  - Pale
+  - Perfect
+  - Rat-like
+  - Sharp
+  - Square
+  - Sunken
+  Speech:
+  - Blunt
+  - Booming
+  - Cryptic
+  - Droning
+  - Formal
+  - Gravelly
+  - Precise
+  - Squeaky
+  - Stuttering
+  - Whispery
+  Clothing:
+  - Antique
+  - Bloody
+  - Elegant
+  - Filthy
+  - Foreign
+  - Frayed
+  - Frumpy
+  - Livery
+  - Rancid
+  - Soiled
+  Virtue:
+  - Ambitious
+  - Cautious
+  - Courageous
+  - Disciplined
+  - Gregarious
+  - Honorable
+  - Humble
+  - Merciful
+  - Serene
+  - Tolerant
+  Vice:
+  - Aggressive
+  - Bitter
+  - Craven
+  - Deceitful
+  - Greedy
+  - Lazy
+  - Nervous
+  - Rude
+  - Vain
+  - Vengeful
+  Reputation:
+  - Ambitious
+  - Boor
+  - Dangerous
+  - Entertainer
+  - Honest
+  - Loafer
+  - Oddball
+  - Repulsive
+  - Respected
+  - Wise
+  Misfortunes:
+  - Abandoned
+  - Addicted
+  - Blackmailed
+  - Condemned
+  - Cursed
+  - Defrauded
+  - Demoted
+  - Discredited
+  - Disowned
+  - Exiled
