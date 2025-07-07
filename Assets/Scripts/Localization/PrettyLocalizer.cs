@@ -24,6 +24,7 @@ namespace CairnRandomizer.Localization
             var sb = new StringBuilder();
 
             sb.Append(GetLocalizedText(roll.Name));
+            sb.Append(' ');
             sb.Append(GetLocalizedText(roll.Surname));
             sb.AppendLine();
 
@@ -62,6 +63,14 @@ namespace CairnRandomizer.Localization
         public string GetEquipmentText(EquipmentRollData roll)
         {
             var sb = new StringBuilder();
+
+            sb.AppendLine(ILocalizer.EQUIPMENT_TITLE);
+
+            foreach (var item in roll.Items)
+            {
+                if (item != null)
+                    sb.AppendLine($"{ILocalizer.LIST_DOT} {GetLocalizedText(item.Name)}");
+            }
 
             return sb.ToString();
         }

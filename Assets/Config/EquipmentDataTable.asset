@@ -22,7 +22,6 @@ MonoBehaviour:
   - rid: 1506001151321440334
   - rid: 1506001151321440335
   - rid: 1506001151321440336
-  - rid: 1506001151321440337
   - rid: 1506001151321440338
   - rid: 1506001151321440339
   - rid: 1506001151321440340
@@ -171,15 +170,6 @@ MonoBehaviour:
       data:
         Name: Cudgel
         Id: 8
-        IsBulky: 0
-        DiceAmount: 1
-        Dice: 1
-        <Tier>k__BackingField: 1
-    - rid: 1506001151321440337
-      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Sickle
-        Id: 9
         IsBulky: 0
         DiceAmount: 1
         Dice: 1
@@ -690,7 +680,7 @@ MonoBehaviour:
     - rid: 1506001243609235529
       type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
       data:
-        Name: Ration XXX
+        Name: Rations
         Id: 85
         IsBulky: 0
     - rid: 1506001243609235530

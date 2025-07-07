@@ -12,7 +12,7 @@ namespace CairnRandomizer.Localization
 
         [Button]
         public void AddData()
-        {
+        { 
             EditorUtility.SetDirty(this);
         }
     }
