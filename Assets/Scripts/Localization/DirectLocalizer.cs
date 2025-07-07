@@ -7,10 +7,6 @@ namespace CairnRandomizer.Localization
 {
     public class DirectLocalizer : ILocalizer
     {
-        public const string APPEARANCE_TITLE = "<size=32><b>Appearance</b></size>";
-        public const string ATTRIBUTES_TITLE = "<size=32><b>Attributes</b></size>";
-        public const string EQUIPMENT_TITLE = "<size=32><b>Equipment</b></size>";
-
         public void Initialize()
         {
             Debug.Log("Initialized");
@@ -20,7 +16,7 @@ namespace CairnRandomizer.Localization
         {
             var sb = new StringBuilder();
 
-            sb.AppendLine(APPEARANCE_TITLE);
+            sb.AppendLine(ILocalizer.APPEARANCE_TITLE);
             
             sb.AppendLine(roll.Name);
             sb.AppendLine(roll.Background);
@@ -46,18 +42,25 @@ namespace CairnRandomizer.Localization
 
         public string GetStatsText(StatsRollData statsRoll)
         {
+            var sb = new StringBuilder();
             statsRoll.Rolls.Sort();
-            return $"{ATTRIBUTES_TITLE}\n{string.Join('\t', statsRoll)}";
+
+            sb.AppendLine(ILocalizer.ATTRIBUTES_TITLE);
+
+            foreach (var roll in statsRoll.Rolls) 
+                sb.Append($"{roll}\t");
+
+            return sb.ToString();
         }
 
         public string GetEquipmentText(EquipmentRollData roll)
         {
             var sb = new StringBuilder();
             
-            sb.AppendLine(EQUIPMENT_TITLE);
+            sb.AppendLine(ILocalizer.EQUIPMENT_TITLE);
 
             foreach (var item in roll.Items) 
-                sb.AppendLine($"• {item}");
+                sb.AppendLine($"{ILocalizer.LIST_DOT} {item}");
 
             return sb.ToString();
         }

@@ -20,14 +20,16 @@ namespace CairnRandomizer.RollGenerators
         public EquipmentRollGenerator()
         {
             GlobalEvents.AddListener<AppearanceRollCompleted>(OnAppearanceRollCompleted);
-            _items =  new List<EquipmentData>();
+            _items = new List<EquipmentData>();
         }
 
         public IRollData Roll(RollDataTable dataTable)
         {
+            _items.Clear();
+
             // add torch and rations
-            _items.Add(dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(e => e.Id == 74));
-            _items.Add(dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(e => e.Id == 63));
+            _items.Add(dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(e => e.Id == 85));
+            _items.Add(dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(e => e.Id == 86));
 
             // roll for armor
             _items.Add(RollForArmor(dataTable.EquipmentDataTable.EquipmentList));

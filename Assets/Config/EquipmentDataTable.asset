@@ -98,6 +98,8 @@ MonoBehaviour:
   - rid: 1506001156067819651
   - rid: 1506001156067819652
   - rid: 1506001156067819653
+  - rid: 1506001243609235529
+  - rid: 1506001243609235530
   references:
     version: 2
     RefIds:
@@ -684,4 +686,16 @@ MonoBehaviour:
       data:
         Name: Whistle
         Id: 84
+        IsBulky: 0
+    - rid: 1506001243609235529
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Ration XXX
+        Id: 85
+        IsBulky: 0
+    - rid: 1506001243609235530
+      type: {class: GearData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
+      data:
+        Name: Torch
+        Id: 86
         IsBulky: 0
