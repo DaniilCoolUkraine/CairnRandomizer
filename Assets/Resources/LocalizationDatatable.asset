@@ -1,0 +1,8231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e945a6d25794990b662464727d8850f, type: 3}
+  m_Name: LocalizationDatatable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: KeyToLocales
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 178
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rations
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 3|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rations XXX
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u0430\u0439\u043E\u043A \u0425\u0425\u0425"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Torch
+    - Name: $v
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 6|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Torch
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0424\u0430\u043A\u0435\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Statuesque
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 9|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Statuesque
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0442\u0430\u0442\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Brawny
+    - Name: $v
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 12|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Brawny
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0443\u0441\u043A\u0443\u043B\u044F\u0441\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Towering
+    - Name: $v
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 15|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Towering
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0438\u0441\u043E\u043A\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Stout
+    - Name: $v
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 18|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Stout
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0440\u0435\u043C\u0435\u0437\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rugged
+    - Name: $v
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 21|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rugged
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043E\u0441\u0442\u0440\u0443\u0431\u0430\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Athletic
+    - Name: $v
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 24|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Athletic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0442\u043B\u0435\u0442\u0438\u0447\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lanky
+    - Name: $v
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 27|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Lanky
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u043E\u0432\u0433\u043E\u0432\u2019\u044F\u0437\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Short
+    - Name: $v
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 30|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Short
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041D\u0438\u0437\u044C\u043A\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Scrawny
+    - Name: $v
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 33|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Scrawny
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0443\u0445\u043E\u0440\u043B\u044F\u0432\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Flabby
+    - Name: $v
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 36|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Flabby
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u2019\u044F\u043B\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Birthmark
+    - Name: $v
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 39|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Birthmark
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u043E\u0434\u0438\u043C\u043A\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dark
+    - Name: $v
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 42|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Dark
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u043C\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tanned
+    - Name: $v
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 45|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Tanned
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u0441\u043C\u0430\u0433\u043B\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pockmarked
+    - Name: $v
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 48|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Pockmarked
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u044F\u0431\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Weathered
+    - Name: $v
+      Entry: 7
+      Data: 50|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 51|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Weathered
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041E\u0431\u0432\u0456\u0442\u0440\u0435\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Soft
+    - Name: $v
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 54|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Soft
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0416\u0438\u0440\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Elongated
+    - Name: $v
+      Entry: 7
+      Data: 56|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 57|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Elongated
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u043B\u0456\u0434\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Round
+    - Name: $v
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 60|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Round
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0406\u0434\u0435\u0430\u043B\u044C\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rosy
+    - Name: $v
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 63|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rosy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u043E\u0436\u0435\u0432\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tattooed
+    - Name: $v
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 66|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Tattooed
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0430\u0442\u0443\u044E\u0432\u0430\u043D\u043D\u044F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bald
+    - Name: $v
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 69|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bald
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0438\u0441\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Braided
+    - Name: $v
+      Entry: 7
+      Data: 71|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 72|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Braided
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u043F\u043B\u0435\u0442\u0435\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Curly
+    - Name: $v
+      Entry: 7
+      Data: 74|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 75|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Curly
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0443\u0447\u0435\u0440\u044F\u0432\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Filthy
+    - Name: $v
+      Entry: 7
+      Data: 77|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 78|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Filthy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0440\u0443\u0434\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Frizzy
+    - Name: $v
+      Entry: 7
+      Data: 80|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 81|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Frizzy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0443\u0434\u0440\u044F\u0432\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Long
+    - Name: $v
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 84|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Long
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 85|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u043E\u0432\u0433\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Luxurious
+    - Name: $v
+      Entry: 7
+      Data: 86|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 87|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Luxurious
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u043E\u0437\u043A\u0456\u0448\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Oily
+    - Name: $v
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 90|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Oily
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0416\u0438\u0440\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wavy
+    - Name: $v
+      Entry: 7
+      Data: 92|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 93|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Wavy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0425\u0432\u0438\u043B\u044F\u0441\u0442\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wispy
+    - Name: $v
+      Entry: 7
+      Data: 95|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 96|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Wispy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 97|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043B\u043E\u0447\u043A\u0443\u0432\u0430\u0442\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Antique
+    - Name: $v
+      Entry: 7
+      Data: 98|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 99|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Antique
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 100|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0442\u0430\u0440\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bloody
+    - Name: $v
+      Entry: 7
+      Data: 101|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 102|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bloody
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u043A\u0440\u0438\u0432\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Elegant
+    - Name: $v
+      Entry: 7
+      Data: 104|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 105|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Elegant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 106|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0415\u043B\u0435\u0433\u0430\u043D\u0442\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ambitious
+    - Name: $v
+      Entry: 7
+      Data: 107|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 108|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Ambitious
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 109|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u043C\u0431\u0456\u0442\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cautious
+    - Name: $v
+      Entry: 7
+      Data: 110|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 111|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cautious
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 112|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041E\u0431\u0435\u0440\u0435\u0436\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Courageous
+    - Name: $v
+      Entry: 7
+      Data: 113|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 114|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Courageous
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 115|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043C\u0456\u043B\u0438\u0432\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Disciplined
+    - Name: $v
+      Entry: 7
+      Data: 116|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 117|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Disciplined
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 118|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u043E\u0432\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gregarious
+    - Name: $v
+      Entry: 7
+      Data: 119|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 120|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gregarious
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 121|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043E\u043C\u043F\u0430\u043D\u0456\u0439\u0441\u044C\u043A\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Honorable
+    - Name: $v
+      Entry: 7
+      Data: 122|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 123|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Honorable
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 124|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0428\u0430\u043D\u043E\u0432\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Humble
+    - Name: $v
+      Entry: 7
+      Data: 125|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 126|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Humble
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 127|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043A\u0440\u043E\u043C\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Merciful
+    - Name: $v
+      Entry: 7
+      Data: 128|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 129|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Merciful
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 130|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0438\u043B\u043E\u0441\u0435\u0440\u0434\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Serene
+    - Name: $v
+      Entry: 7
+      Data: 131|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 132|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Serene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 133|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043F\u043E\u043A\u0456\u0439\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tolerant
+    - Name: $v
+      Entry: 7
+      Data: 134|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 135|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Tolerant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 136|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u0440\u043F\u043B\u044F\u0447\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Aggressive
+    - Name: $v
+      Entry: 7
+      Data: 137|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 138|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Aggressive
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 139|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0433\u0440\u0435\u0441\u0438\u0432\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bitter
+    - Name: $v
+      Entry: 7
+      Data: 140|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 141|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bitter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 142|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0456\u0440\u043A\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Craven
+    - Name: $v
+      Entry: 7
+      Data: 143|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 144|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Craven
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 145|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u043E\u044F\u0433\u0443\u0437"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Deceitful
+    - Name: $v
+      Entry: 7
+      Data: 146|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 147|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Deceitful
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 148|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0456\u0440\u043E\u043B\u043E\u043C\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Greedy
+    - Name: $v
+      Entry: 7
+      Data: 149|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 150|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Greedy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 151|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0416\u0430\u0434\u0456\u0431\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lazy
+    - Name: $v
+      Entry: 7
+      Data: 152|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 153|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Lazy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 154|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0435\u0434\u0430\u0447\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Nervous
+    - Name: $v
+      Entry: 7
+      Data: 155|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 156|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Nervous
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 157|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041D\u0435\u0440\u0432\u043E\u0432\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rude
+    - Name: $v
+      Entry: 7
+      Data: 158|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 159|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 160|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0443\u0431\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Vain
+    - Name: $v
+      Entry: 7
+      Data: 161|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 162|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Vain
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 163|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0430\u0440\u043D\u043E\u0441\u043B\u0430\u0432\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Vengeful
+    - Name: $v
+      Entry: 7
+      Data: 164|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 165|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Vengeful
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 166|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0441\u0442\u0438\u0432\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Boor
+    - Name: $v
+      Entry: 7
+      Data: 167|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 168|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Boor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 169|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0425\u0430\u043C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dangerous
+    - Name: $v
+      Entry: 7
+      Data: 170|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 171|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Dangerous
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 172|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041D\u0435\u0431\u0435\u0437\u043F\u0435\u0447\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Entertainer
+    - Name: $v
+      Entry: 7
+      Data: 173|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 174|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Entertainer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 175|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0440\u0442\u0438\u0441\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Honest
+    - Name: $v
+      Entry: 7
+      Data: 176|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 177|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Honest
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 178|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0427\u0435\u0441\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Loafer
+    - Name: $v
+      Entry: 7
+      Data: 179|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 180|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Loafer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 181|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041D\u0435\u0440\u043E\u0431\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Oddball
+    - Name: $v
+      Entry: 7
+      Data: 182|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 183|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Oddball
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 184|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0438\u0432\u0430\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Repulsive
+    - Name: $v
+      Entry: 7
+      Data: 185|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 186|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Repulsive
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 187|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041E\u0433\u0438\u0434\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Respected
+    - Name: $v
+      Entry: 7
+      Data: 188|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 189|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Respected
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 190|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u043E\u0432\u0430\u0436\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wise
+    - Name: $v
+      Entry: 7
+      Data: 191|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 192|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Wise
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 193|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0443\u0434\u0440\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Abandoned
+    - Name: $v
+      Entry: 7
+      Data: 194|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 195|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Abandoned
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 196|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u043E\u043A\u0438\u043D\u0443\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Addicted
+    - Name: $v
+      Entry: 7
+      Data: 197|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 198|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Addicted
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 199|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u043B\u0435\u0436\u043D\u0456\u0441\u0442\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blackmailed
+    - Name: $v
+      Entry: 7
+      Data: 200|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 201|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Blackmailed
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 202|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0428\u0430\u043D\u0442\u0430\u0436\u043E\u0432\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Condemned
+    - Name: $v
+      Entry: 7
+      Data: 203|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 204|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Condemned
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 205|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u0441\u0443\u0434\u0436\u0435\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cursed
+    - Name: $v
+      Entry: 7
+      Data: 206|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 207|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cursed
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 208|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u0440\u043E\u043A\u043B\u044F\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Defrauded
+    - Name: $v
+      Entry: 7
+      Data: 209|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 210|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Defrauded
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 211|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041E\u0448\u0443\u043A\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Demoted
+    - Name: $v
+      Entry: 7
+      Data: 212|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 213|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Demoted
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 214|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u043E\u0437\u0436\u0430\u043B\u0443\u0432\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Discredited
+    - Name: $v
+      Entry: 7
+      Data: 215|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 216|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Discredited
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 217|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0438\u0441\u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432\u0430\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Disowned
+    - Name: $v
+      Entry: 7
+      Data: 218|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 219|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Disowned
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 220|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0456\u0434 \u043D\u044C\u043E\u0433\u043E \u0432\u0456\u0434\u0440\u0435\u043A\u043B\u0438\u0441\u044F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Exiled
+    - Name: $v
+      Entry: 7
+      Data: 221|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 222|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Exiled
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 223|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0438\u0433\u043D\u0430\u043D\u0435\u0446\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Alchemist
+    - Name: $v
+      Entry: 7
+      Data: 224|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 225|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Alchemist
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 226|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u043B\u0445\u0456\u043C\u0456\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blacksmith
+    - Name: $v
+      Entry: 7
+      Data: 227|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 228|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Blacksmith
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 229|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043E\u0432\u0430\u043B\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Butcher
+    - Name: $v
+      Entry: 7
+      Data: 230|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 231|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Butcher
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 232|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u2019\u044F\u0441\u043D\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burglar
+    - Name: $v
+      Entry: 7
+      Data: 233|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 234|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Burglar
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 235|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0430\u0431\u0456\u0436\u043D\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Carpenter
+    - Name: $v
+      Entry: 7
+      Data: 236|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 237|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Carpenter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 238|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0442\u043E\u043B\u044F\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cleric
+    - Name: $v
+      Entry: 7
+      Data: 239|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 240|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cleric
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 241|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043B\u0456\u0440\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gambler
+    - Name: $v
+      Entry: 7
+      Data: 242|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 243|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gambler
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 244|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0428\u0443\u043B\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gravedigger
+    - Name: $v
+      Entry: 7
+      Data: 245|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 246|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gravedigger
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 247|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u043E\u0433\u0438\u043B\u044C\u043D\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Herbalist
+    - Name: $v
+      Entry: 7
+      Data: 248|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 249|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Herbalist
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 250|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0440\u0430\u0432\u043D\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hunter
+    - Name: $v
+      Entry: 7
+      Data: 251|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 252|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Hunter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 253|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0438\u0441\u043B\u0438\u0432\u0435\u0446\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Magician
+    - Name: $v
+      Entry: 7
+      Data: 254|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 255|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Magician
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 256|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0427\u0430\u0440\u0456\u0432\u043D\u0438\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mercenary
+    - Name: $v
+      Entry: 7
+      Data: 257|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 258|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Mercenary
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 259|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041D\u0430\u0439\u043C\u0430\u043D\u0435\u0446\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Merchant
+    - Name: $v
+      Entry: 7
+      Data: 260|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 261|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Merchant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 262|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u043E\u0440\u0433\u043E\u0432\u0435\u0446\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Miner
+    - Name: $v
+      Entry: 7
+      Data: 263|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 264|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Miner
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 265|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0428\u0430\u0445\u0442\u0430\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Outlaw
+    - Name: $v
+      Entry: 7
+      Data: 266|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 267|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Outlaw
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 268|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0430\u043D\u0434\u0438\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Performer
+    - Name: $v
+      Entry: 7
+      Data: 269|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 270|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Performer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 271|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0440\u0442\u0438\u0441\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pickpocket
+    - Name: $v
+      Entry: 7
+      Data: 272|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 273|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Pickpocket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 274|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0438\u0448\u0435\u043D\u044C\u043A\u043E\u0432\u0438\u0439 \u0437\u043B\u043E\u0434\u0456\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Smuggler
+    - Name: $v
+      Entry: 7
+      Data: 275|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 276|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Smuggler
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 277|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043E\u043D\u0442\u0440\u0430\u0431\u0430\u043D\u0434\u0438\u0441\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Servant
+    - Name: $v
+      Entry: 7
+      Data: 278|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 279|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Servant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 280|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043B\u0443\u0433\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ranger
+    - Name: $v
+      Entry: 7
+      Data: 281|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 282|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Ranger
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 283|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043B\u0456\u0434\u043E\u043F\u0438\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Agune
+    - Name: $v
+      Entry: 7
+      Data: 284|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 285|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Agune
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 286|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0433\u0443\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Beatrice
+    - Name: $v
+      Entry: 7
+      Data: 287|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 288|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Beatrice
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 289|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0435\u0430\u0442\u0440\u0456\u0447\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breagan
+    - Name: $v
+      Entry: 7
+      Data: 290|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 291|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Breagan
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 292|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0440\u0456\u0433\u0430\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bronwyn
+    - Name: $v
+      Entry: 7
+      Data: 293|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 294|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bronwyn
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 295|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0440\u0435\u043B\u0456\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cannora
+    - Name: $v
+      Entry: 7
+      Data: 296|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 297|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cannora
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 298|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0430\u043D\u043D\u043E\u0440\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Elgile
+    - Name: $v
+      Entry: 7
+      Data: 299|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 300|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Elgile
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 301|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0415\u043B\u0433\u0456\u0433"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Esme
+    - Name: $v
+      Entry: 7
+      Data: 302|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 303|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Esme
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 304|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0415\u0441\u043C\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Groua
+    - Name: $v
+      Entry: 7
+      Data: 305|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 306|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Groua
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 307|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0456\u044F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Henaine
+    - Name: $v
+      Entry: 7
+      Data: 308|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 309|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Henaine
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 310|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0425\u0435\u043D\u0430\u0439\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lirann
+    - Name: $v
+      Entry: 7
+      Data: 311|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 312|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Lirann
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 313|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0456\u0440\u0430\u043D\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lirathil
+    - Name: $v
+      Entry: 7
+      Data: 314|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 315|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Lirathil
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 316|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0456\u0440\u0430\u0442\u0456\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lisabeth
+    - Name: $v
+      Entry: 7
+      Data: 317|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 318|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Lisabeth
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 319|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0456\u0437\u0430\u0431\u0435\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Moralil
+    - Name: $v
+      Entry: 7
+      Data: 320|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 321|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Moralil
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 322|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u043E\u0440\u0430\u043B\u0456\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Morgwen
+    - Name: $v
+      Entry: 7
+      Data: 323|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 324|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Morgwen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 325|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u043E\u0440\u0433\u0432\u0435\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sybil
+    - Name: $v
+      Entry: 7
+      Data: 326|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 327|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Sybil
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 328|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u0433\u0432\u0456\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Theune
+    - Name: $v
+      Entry: 7
+      Data: 329|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 330|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Theune
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 331|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u0443\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wenlan
+    - Name: $v
+      Entry: 7
+      Data: 332|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 333|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Wenlan
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 334|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0435\u043D\u043B\u0430\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ygwal
+    - Name: $v
+      Entry: 7
+      Data: 335|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 336|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Ygwal
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 337|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0406\u0433\u0432\u0430\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Yslen
+    - Name: $v
+      Entry: 7
+      Data: 338|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 339|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Yslen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 340|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0406\u0441\u043B\u0435\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Arwel
+    - Name: $v
+      Entry: 7
+      Data: 341|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 342|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Arwel
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 343|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0440\u0432\u0435\u043B\u044C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bevan
+    - Name: $v
+      Entry: 7
+      Data: 344|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 345|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bevan
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 346|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0440\u0435\u0439\u0456\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Boroth
+    - Name: $v
+      Entry: 7
+      Data: 347|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 348|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Boroth
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 349|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u043E\u0440\u043E\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Borrid
+    - Name: $v
+      Entry: 7
+      Data: 350|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 351|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Borrid
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 352|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u043E\u0440\u0440\u0456\u0434"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breagle
+    - Name: $v
+      Entry: 7
+      Data: 353|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 354|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Breagle
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 355|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0440\u0456\u0433\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breglor
+    - Name: $v
+      Entry: 7
+      Data: 356|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 357|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Breglor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 358|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0440\u0435\u0433\u043B\u043E\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Canhoreal
+    - Name: $v
+      Entry: 7
+      Data: 359|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 360|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Canhoreal
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 361|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0430\u043D\u0445\u043E\u0440\u0435\u0430\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Emrys
+    - Name: $v
+      Entry: 7
+      Data: 362|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 363|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Emrys
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 364|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043B\u044E\u0434"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ethex
+    - Name: $v
+      Entry: 7
+      Data: 365|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 366|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Ethex
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 367|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0415\u0442\u0435\u043A\u0441"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gringle
+    - Name: $v
+      Entry: 7
+      Data: 368|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 369|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gringle
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 370|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0456\u043D\u0433\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Grinwit
+    - Name: $v
+      Entry: 7
+      Data: 371|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 372|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Grinwit
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 373|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0490\u0440\u0456\u043D\u0432\u0456\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gruwid
+    - Name: $v
+      Entry: 7
+      Data: 374|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 375|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gruwid
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 376|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0443\u0432\u0456\u0434"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gruwth
+    - Name: $v
+      Entry: 7
+      Data: 377|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 378|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gruwth
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 379|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u044E\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gwestin
+    - Name: $v
+      Entry: 7
+      Data: 380|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 381|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gwestin
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 382|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u0433\u043B\u0456\u0434"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mannog
+    - Name: $v
+      Entry: 7
+      Data: 383|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 384|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Mannog
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 385|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0430\u043D\u043D\u043E\u0433"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Melnax
+    - Name: $v
+      Entry: 7
+      Data: 386|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 387|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Melnax
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 388|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0435\u043B\u043D\u0430\u043A\u0441"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Orthax
+    - Name: $v
+      Entry: 7
+      Data: 389|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 390|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Orthax
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 391|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041E\u0440\u0432\u0430\u043A\u0441"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Triunein
+    - Name: $v
+      Entry: 7
+      Data: 392|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 393|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Triunein
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 394|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0432\u0456\u043D\u0433\u043B\u0456\u0434"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Yirmeor
+    - Name: $v
+      Entry: 7
+      Data: 395|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 396|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Yirmeor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 397|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0419\u0456\u0440\u043C\u0435\u043E\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Abernathy
+    - Name: $v
+      Entry: 7
+      Data: 398|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 399|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Abernathy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 400|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0431\u0435\u0440\u0430\u0442\u0456"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Addercap
+    - Name: $v
+      Entry: 7
+      Data: 401|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 402|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Addercap
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 403|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0410\u0434\u0434\u0435\u0440\u043A\u0430\u043F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burl
+    - Name: $v
+      Entry: 7
+      Data: 404|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 405|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Burl
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 406|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0411\u0435\u0440\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Candlewick
+    - Name: $v
+      Entry: 7
+      Data: 407|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 408|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Candlewick
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 409|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0435\u043D\u043B\u0432\u0456\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cormick
+    - Name: $v
+      Entry: 7
+      Data: 410|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 411|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cormick
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 412|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u043E\u0440\u043C\u0456\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Crumwaller
+    - Name: $v
+      Entry: 7
+      Data: 413|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 414|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Crumwaller
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 415|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0440\u0430\u043C\u0432\u043E\u043B\u043B\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dunswallow
+    - Name: $v
+      Entry: 7
+      Data: 416|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 417|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Dunswallow
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 418|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u044E\u043D\u0441\u0432\u0435\u043B\u043B\u043E\u0443"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Getri
+    - Name: $v
+      Entry: 7
+      Data: 419|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 420|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Getri
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 421|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0435\u0442\u0440\u0456"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Glass
+    - Name: $v
+      Entry: 7
+      Data: 422|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 423|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Glass
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 424|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u043B\u0430\u0441\u0441"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Harkness
+    - Name: $v
+      Entry: 7
+      Data: 425|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 426|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Harkness
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 427|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0425\u0430\u0440\u043A\u043D\u0435\u0441\u0441"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Harper
+    - Name: $v
+      Entry: 7
+      Data: 428|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 429|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Harper
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 430|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0425\u0430\u0440\u043F\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Loomer
+    - Name: $v
+      Entry: 7
+      Data: 431|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 432|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Loomer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 433|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0443\u043C\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Malksmilk
+    - Name: $v
+      Entry: 7
+      Data: 434|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 435|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Malksmilk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 436|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u0430\u043B\u043A\u0441\u043C\u0456\u043B\u043A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Smythe
+    - Name: $v
+      Entry: 7
+      Data: 437|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 438|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Smythe
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 439|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043C\u0430\u0439\u0442"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sunderman
+    - Name: $v
+      Entry: 7
+      Data: 440|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 441|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Sunderman
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 442|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0430\u043D\u0434\u0435\u0440\u043C\u0435\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Swinney
+    - Name: $v
+      Entry: 7
+      Data: 443|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 444|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Swinney
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 445|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u0432\u0456\u043D\u043D\u0456"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Thatcher
+    - Name: $v
+      Entry: 7
+      Data: 446|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 447|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Thatcher
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 448|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0435\u0442\u0447\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tolmen
+    - Name: $v
+      Entry: 7
+      Data: 449|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 450|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Tolmen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 451|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u043E\u043B\u043C\u0435\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Weaver
+    - Name: $v
+      Entry: 7
+      Data: 452|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 453|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Weaver
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 454|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u0456\u0432\u0456\u043B\u043C\u0435\u043D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wolder
+    - Name: $v
+      Entry: 7
+      Data: 455|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 456|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Wolder
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 457|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0412\u043E\u043B\u0434\u0435\u0440"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bony
+    - Name: $v
+      Entry: 7
+      Data: 458|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 459|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Bony
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 460|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0456\u0441\u0442\u043B\u044F\u0432\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Broken
+    - Name: $v
+      Entry: 7
+      Data: 461|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 462|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Broken
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 463|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0420\u043E\u0437\u0431\u0438\u0442\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Chiseled
+    - Name: $v
+      Entry: 7
+      Data: 464|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 465|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Chiseled
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 466|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u043E\u0447\u0435\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pale
+    - Name: $v
+      Entry: 7
+      Data: 467|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 468|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Pale
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 469|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041C\u2019\u044F\u043A\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Perfect
+    - Name: $v
+      Entry: 7
+      Data: 470|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 471|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Perfect
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 472|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0440\u0443\u0433\u043B\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rat-like
+    - Name: $v
+      Entry: 7
+      Data: 473|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 474|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rat-like
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 475|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u0430\u0446\u044E\u043A\u043E\u043F\u043E\u0434\u0456\u0431\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sharp
+    - Name: $v
+      Entry: 7
+      Data: 476|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 477|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Sharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 478|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u043E\u0441\u0442\u0440\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Square
+    - Name: $v
+      Entry: 7
+      Data: 479|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 480|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Square
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 481|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0432\u0430\u0434\u0440\u0430\u0442\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sunken
+    - Name: $v
+      Entry: 7
+      Data: 482|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 483|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Sunken
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 484|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u043F\u0430\u043B\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blunt
+    - Name: $v
+      Entry: 7
+      Data: 485|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 486|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Blunt
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 487|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0440\u0443\u0431\u0443\u0432\u0430\u0442\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Booming
+    - Name: $v
+      Entry: 7
+      Data: 488|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 489|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Booming
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 490|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0413\u0443\u0440\u043A\u043E\u0447\u0443\u0447\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cryptic
+    - Name: $v
+      Entry: 7
+      Data: 491|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 492|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Cryptic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 493|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u0430\u0454\u043C\u043D\u0438\u0447\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Droning
+    - Name: $v
+      Entry: 7
+      Data: 494|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 495|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Droning
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 496|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0435\u0440\u0435\u043D\u0447\u043B\u0438\u0432\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Formal
+    - Name: $v
+      Entry: 7
+      Data: 497|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 498|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Formal
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 499|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0424\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Gravelly
+    - Name: $v
+      Entry: 7
+      Data: 500|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 501|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Gravelly
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 502|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u042F\u043A \u0433\u0440\u0430\u0432\u0456\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Precise
+    - Name: $v
+      Entry: 7
+      Data: 503|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 504|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Precise
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 505|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0422\u043E\u0447\u043D\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Squeaky
+    - Name: $v
+      Entry: 7
+      Data: 506|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 507|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Squeaky
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 508|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043A\u0440\u0438\u043F\u0443\u0447\u0430"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Stuttering
+    - Name: $v
+      Entry: 7
+      Data: 509|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 510|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Stuttering
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 511|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0417\u0430\u0457\u043A\u0430\u043D\u043D\u044F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Whispery
+    - Name: $v
+      Entry: 7
+      Data: 512|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 513|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Whispery
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 514|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u043E\u0448\u0435\u043F\u043A\u0438"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Foreign
+    - Name: $v
+      Entry: 7
+      Data: 515|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 516|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Foreign
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 517|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u0430\u0441\u043A\u0443\u0434\u043D\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Frayed
+    - Name: $v
+      Entry: 7
+      Data: 518|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 519|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Frayed
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 520|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u043E\u0442\u0435\u0440\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Frumpy
+    - Name: $v
+      Entry: 7
+      Data: 521|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 522|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Frumpy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 523|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0443\u0440\u043D\u0443\u0432\u0430\u0442\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Livery
+    - Name: $v
+      Entry: 7
+      Data: 524|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 525|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Livery
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 526|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041B\u0456\u0432\u0440\u0435\u044F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Rancid
+    - Name: $v
+      Entry: 7
+      Data: 527|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 528|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Rancid
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 529|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041F\u0440\u043E\u0433\u0456\u0440\u043A\u043B\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Soiled
+    - Name: $v
+      Entry: 7
+      Data: 530|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 531|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Soiled
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 532|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0421\u043C\u0435\u0440\u0434\u044E\u0447\u0438\u0439"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Drelil
+    - Name: $v
+      Entry: 7
+      Data: 533|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 534|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Drelil
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 535|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u0414\u0440\u0435\u043B\u0456\u043B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

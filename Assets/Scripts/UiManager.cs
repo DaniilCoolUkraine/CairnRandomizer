@@ -22,7 +22,7 @@ namespace CairnRandomizer
 
         private void Start()
         {
-            _localizer = new DirectLocalizer();
+            _localizer = new PrettyLocalizer();
             _localizer.Initialize();
         }
 

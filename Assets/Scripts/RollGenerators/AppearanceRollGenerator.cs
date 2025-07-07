@@ -24,7 +24,8 @@ namespace CairnRandomizer.RollGenerators
                 dataTable.TraitsDataTable.Hair.GetRandomElement(), 
                 dataTable.TraitsDataTable.Skin.GetRandomElement(),
                 GetAge(),
-                dataTable.TraitsDataTable.Physique.GetRandomElement());
+                dataTable.TraitsDataTable.Physique.GetRandomElement(),
+                GetSurname(dataTable));
 
             GlobalEvents.Publish(new AppearanceRollCompleted(roll.Background, roll.Misfortune));
 
@@ -34,7 +35,12 @@ namespace CairnRandomizer.RollGenerators
         private string GetName(RollDataTable dataTable)
         {
             INameDataTable genderName = Random.Range(0, 101) > 50 ? dataTable.MaleNameDataTable : dataTable.FemaleNameDataTable;
-            return $"{genderName.Names.GetRandomElement()} {dataTable.SurnameDataTable.Names.GetRandomElement()}";
+            return $"{genderName.Names.GetRandomElement()}";
+        }
+        
+        private string GetSurname(RollDataTable dataTable)
+        {
+            return dataTable.SurnameDataTable.Names.GetRandomElement();
         }
 
         private int GetAge()

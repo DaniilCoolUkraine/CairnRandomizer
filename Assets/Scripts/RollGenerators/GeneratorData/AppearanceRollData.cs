@@ -3,6 +3,7 @@
     public class AppearanceRollData : IRollData
     {
         public string Name { get; }
+        public string Surname { get; }
         public string Background { get; }
 
         public string Misfortune { get; }
@@ -19,7 +20,7 @@
 
         public AppearanceRollData(string name, string background, string misfortune, string reputation, string vice,
             string virtue, string clothing, string speech, string face, string hair, string skin, int age,
-            string physique)
+            string physique, string surname)
         {
             Name = name;
             Background = background;
@@ -34,6 +35,7 @@
             Skin = skin;
             Age = age;
             Physique = physique;
+            Surname = surname;
         }
     }
 }

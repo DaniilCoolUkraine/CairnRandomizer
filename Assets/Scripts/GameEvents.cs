@@ -4,6 +4,16 @@ using SimpleEventBus.SimpleEventBus.Runtime;
 
 namespace CairnRandomizer
 {
+    public class LocalizationChanged : IEvent
+    {
+        public string LanguageCode { get; }
+
+        public LocalizationChanged(string languageCode)
+        {
+            LanguageCode = languageCode;
+        }
+    }
+    
     public class RollRequested : IEvent
     {
     }

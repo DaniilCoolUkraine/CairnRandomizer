@@ -18,7 +18,11 @@ namespace CairnRandomizer.Localization
 
             sb.AppendLine(ILocalizer.APPEARANCE_TITLE);
             
-            sb.AppendLine(roll.Name);
+            sb.Append(roll.Name);
+            sb.Append(roll.Surname);
+            
+            sb.AppendLine();
+            
             sb.AppendLine(roll.Background);
 
             sb.AppendLine(roll.Physique);
