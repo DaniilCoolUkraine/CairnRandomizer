@@ -1,11 +1,11 @@
 ﻿namespace CairnRandomizer.RollGenerators.GeneratorData
 {
-    public class TraitRollData : IRollData
+    public class AppearanceRollData : IRollData
     {
         public string Name { get; }
-        public string Backgrounds { get; }
+        public string Background { get; }
 
-        public string Misfortunes { get; }
+        public string Misfortune { get; }
         public string Reputation { get; }
         public string Vice { get; }
         public string Virtue { get; }
@@ -15,12 +15,15 @@
         public string Hair { get; }
         public string Skin { get; }
         public int Age { get; }
+        public string Physique { get; }
 
-        public TraitRollData(string name, string backgrounds, string misfortunes, string reputation, string vice, string virtue, string clothing, string speech, string face, string hair, string skin, int age)
+        public AppearanceRollData(string name, string background, string misfortune, string reputation, string vice,
+            string virtue, string clothing, string speech, string face, string hair, string skin, int age,
+            string physique)
         {
             Name = name;
-            Backgrounds = backgrounds;
-            Misfortunes = misfortunes;
+            Background = background;
+            Misfortune = misfortune;
             Reputation = reputation;
             Vice = vice;
             Virtue = virtue;
@@ -30,6 +33,7 @@
             Hair = hair;
             Skin = skin;
             Age = age;
+            Physique = physique;
         }
     }
 }

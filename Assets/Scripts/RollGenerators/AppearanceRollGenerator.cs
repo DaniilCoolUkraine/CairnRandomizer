@@ -11,7 +11,7 @@ namespace CairnRandomizer.RollGenerators
     {
         public IRollData Roll(RollDataTable dataTable)
         {
-            var roll = new TraitRollData(
+            var roll = new AppearanceRollData(
                 GetName(dataTable), 
                 dataTable.TraitsDataTable.Backgrounds.GetRandomElement(),
                 dataTable.TraitsDataTable.Misfortunes.GetRandomElement(),
@@ -23,9 +23,10 @@ namespace CairnRandomizer.RollGenerators
                 dataTable.TraitsDataTable.Face.GetRandomElement(),
                 dataTable.TraitsDataTable.Hair.GetRandomElement(), 
                 dataTable.TraitsDataTable.Skin.GetRandomElement(),
-                GetAge());
+                GetAge(),
+                dataTable.TraitsDataTable.Physique.GetRandomElement());
 
-            GlobalEvents.Publish(new AppearanceRollCompleted(roll.Backgrounds, roll.Misfortunes));
+            GlobalEvents.Publish(new AppearanceRollCompleted(roll.Background, roll.Misfortune));
 
             return roll;
         }
