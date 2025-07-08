@@ -27,7 +27,6 @@ MonoBehaviour:
   - rid: 1506001151321440340
   - rid: 1506001151321440341
   - rid: 1506001151321440342
-  - rid: 1506001151321440343
   - rid: 1506001151321440344
   - rid: 1506001151321440345
   - rid: 1506001151321440346
@@ -215,15 +214,6 @@ MonoBehaviour:
       data:
         Name: Axe
         Id: 14
-        IsBulky: 0
-        DiceAmount: 1
-        Dice: 2
-        <Tier>k__BackingField: 2
-    - rid: 1506001151321440343
-      type: {class: WeaponData, ns: CairnRandomizer.RollData.Equipment, asm: Assembly-CSharp}
-      data:
-        Name: Flail
-        Id: 15
         IsBulky: 0
         DiceAmount: 1
         Dice: 2

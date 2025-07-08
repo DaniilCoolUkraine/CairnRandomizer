@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -11,6 +12,11 @@ namespace CairnRandomizer.RollData.Equipment
         public int Id;
         public bool IsBulky;
 
+        public virtual string GetLocalizedName(Func<string, string> localizer)
+        {
+            return localizer?.Invoke(Name);
+        }
+        
         public override string ToString()
         {
             return Name;
@@ -44,7 +50,29 @@ namespace CairnRandomizer.RollData.Equipment
         public DiceType Dice;
         
         [field:SerializeField] public int Tier { get; private set; }
-        
+
+        public override string GetLocalizedName(Func<string, string> localizer)
+        {
+            var sb = new StringBuilder();
+
+            if (IsBulky) 
+                sb.Append("<b>");
+
+            sb.Append(localizer?.Invoke(Name));
+
+            if (IsBulky) 
+                sb.Append("</b>");
+
+            sb.Append($" ({DiceAmount}{Dice.ToString()}");
+
+            if (IsBulky) 
+                sb.Append($", {localizer?.Invoke("Bulky")}");
+
+            sb.Append(')');
+
+            return sb.ToString();
+        }
+
         public override string ToString()
         {
             var sb = new StringBuilder();
@@ -75,6 +103,28 @@ namespace CairnRandomizer.RollData.Equipment
         public bool IsSecondary;
 
         [field:SerializeField] public int Tier { get; private set; }
+
+        public override string GetLocalizedName(Func<string, string> localizer)
+        {
+            var sb = new StringBuilder();
+
+            if (IsBulky) 
+                sb.Append("<b>");
+
+            sb.Append(localizer?.Invoke(Name));
+
+            if (IsBulky) 
+                sb.Append("</b>");
+
+            sb.Append($" (+{Armor} {localizer?.Invoke("Armor")}");
+
+            if (IsBulky) 
+                sb.Append($", {localizer?.Invoke("Bulky")}");
+
+            sb.Append(')');
+
+            return sb.ToString();
+        }
         
         public override string ToString()
         {

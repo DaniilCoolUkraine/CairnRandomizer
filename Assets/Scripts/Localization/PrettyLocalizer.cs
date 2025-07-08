@@ -69,7 +69,7 @@ namespace CairnRandomizer.Localization
             foreach (var item in roll.Items)
             {
                 if (item != null)
-                    sb.AppendLine($"{ILocalizer.LIST_DOT} {GetLocalizedText(item.Name)}");
+                    sb.AppendLine($"{ILocalizer.LIST_DOT} {item.GetLocalizedName(GetLocalizedText)}");
             }
 
             return sb.ToString();
