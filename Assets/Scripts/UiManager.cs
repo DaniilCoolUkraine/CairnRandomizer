@@ -18,6 +18,8 @@ namespace CairnRandomizer
         [SerializeField, Required] private TextMeshProUGUI _attributesText;
         [SerializeField, Required] private TextMeshProUGUI _equipmentText;
 
+        [SerializeField, Required] private TMP_Dropdown _languageDropdown;
+
         private ILocalizer _localizer;
 
         private void Start()
@@ -29,18 +31,28 @@ namespace CairnRandomizer
         private void OnEnable()
         {
             _rollButton.onClick.AddListener(OnRollButtonClicked);
+            _languageDropdown.onValueChanged.AddListener(OnLanguageChanged);
+            
             GlobalEvents.AddListener<RollCompleted>(OnRollCompleted);
         }
 
         private void OnDisable()
         {
             _rollButton.onClick.RemoveListener(OnRollButtonClicked);
+            _languageDropdown.onValueChanged.RemoveListener(OnLanguageChanged);
+            
             GlobalEvents.RemoveListener<RollCompleted>(OnRollCompleted);
         }
 
         private void OnRollButtonClicked()
         {
             GlobalEvents.Publish(new RollRequested());
+        }
+        
+        private void OnLanguageChanged(int arg)
+        {
+            var ev = new LocalizationChanged(_languageDropdown.options[arg].text);
+            GlobalEvents.Publish(ev);
         }
         
         private void OnRollCompleted(RollCompleted ev)
