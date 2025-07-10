@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Text;
+using CairnRandomizer.General;
 using CairnRandomizer.RollGenerators.GeneratorData;
 using SimpleEventBus.SimpleEventBus.Runtime;
 using Sirenix.Utilities;
@@ -22,6 +23,8 @@ namespace CairnRandomizer.Localization
         public string GetAppearanceText(AppearanceRollData roll)
         {
             var sb = new StringBuilder();
+
+            sb.AppendLine($"<size=32><b>{GetLocalizedText(ILocalizer.APPEARANCE_TITLE)}</b></size>");
 
             sb.Append(GetLocalizedText(roll.Name));
             sb.Append(' ');
@@ -52,7 +55,7 @@ namespace CairnRandomizer.Localization
             var sb = new StringBuilder();
             statsRoll.Rolls.Sort();
 
-            sb.AppendLine(ILocalizer.ATTRIBUTES_TITLE);
+            sb.AppendLine($"<size=32><b>{GetLocalizedText(ILocalizer.ATTRIBUTES_TITLE)}</b></size>");
 
             foreach (var roll in statsRoll.Rolls) 
                 sb.Append($"{roll}\t");
@@ -64,7 +67,7 @@ namespace CairnRandomizer.Localization
         {
             var sb = new StringBuilder();
 
-            sb.AppendLine(ILocalizer.EQUIPMENT_TITLE);
+            sb.AppendLine($"<size=32><b>{GetLocalizedText(ILocalizer.EQUIPMENT_TITLE)}</b></size>");
 
             foreach (var item in roll.Items)
             {

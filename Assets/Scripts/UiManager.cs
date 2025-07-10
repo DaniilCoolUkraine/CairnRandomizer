@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using CairnRandomizer.General;
 using CairnRandomizer.Localization;
 using CairnRandomizer.RollGenerators.GeneratorData;
 using SimpleEventBus.SimpleEventBus.Runtime;
@@ -22,12 +23,6 @@ namespace CairnRandomizer
 
         private ILocalizer _localizer;
 
-        private void Start()
-        {
-            _localizer = new PrettyLocalizer();
-            _localizer.Initialize();
-        }
-
         private void OnEnable()
         {
             _rollButton.onClick.AddListener(OnRollButtonClicked);
@@ -44,6 +39,14 @@ namespace CairnRandomizer
             GlobalEvents.RemoveListener<RollCompleted>(OnRollCompleted);
         }
 
+        public void Initialize()
+        {
+            _localizer = new PrettyLocalizer();
+            _localizer.Initialize();
+
+            OnRollButtonClicked();
+        }
+        
         private void OnRollButtonClicked()
         {
             GlobalEvents.Publish(new RollRequested());

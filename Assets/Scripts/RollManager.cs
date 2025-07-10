@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using CairnRandomizer.General;
 using CairnRandomizer.RollData;
 using CairnRandomizer.RollGenerators;
 using CairnRandomizer.RollGenerators.GeneratorData;
@@ -15,13 +16,6 @@ namespace CairnRandomizer
         private IRollGenerator _statsRollGenerator;
         private IRollGenerator _equipmentRollGenerator;
 
-        private void Start()
-        {
-            _appearanceRollGenerator =  new AppearanceRollGenerator();
-            _statsRollGenerator =  new StatsRollGenerator();
-            _equipmentRollGenerator =  new EquipmentRollGenerator();
-        }
-
         private void OnEnable()
         {
             GlobalEvents.AddListener<RollRequested>(OnRollRequested);
@@ -32,6 +26,13 @@ namespace CairnRandomizer
             GlobalEvents.RemoveListener<RollRequested>(OnRollRequested);
         }
 
+        public void Initialize()
+        {
+            _appearanceRollGenerator =  new AppearanceRollGenerator();
+            _statsRollGenerator =  new StatsRollGenerator();
+            _equipmentRollGenerator =  new EquipmentRollGenerator();
+        }
+        
         private void OnRollRequested(RollRequested ev)
         {
             var rollsData = new List<IRollData>();

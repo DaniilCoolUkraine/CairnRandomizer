@@ -2,7 +2,7 @@
 using CairnRandomizer.RollGenerators.GeneratorData;
 using SimpleEventBus.SimpleEventBus.Runtime;
 
-namespace CairnRandomizer
+namespace CairnRandomizer.General
 {
     public class LocalizationChanged : IEvent
     {
