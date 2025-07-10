@@ -23,11 +23,11 @@ MonoBehaviour:
     SerializationNodes: []
   TraitToItemIds:
   - Trait: Alchemist
-    ItemIds: 0000000000000000
+    ItemIds: 1700000036000000
   - Trait: Blacksmith
-    ItemIds: 0000000000000000
+    ItemIds: 1700000056000000
   - Trait: Butcher
-    ItemIds: 0000000000000000
+    ItemIds: 1700000005000000
   - Trait: Burglar
     ItemIds: 0000000000000000
   - Trait: Carpenter

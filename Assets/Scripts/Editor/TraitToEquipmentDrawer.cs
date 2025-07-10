@@ -36,6 +36,7 @@ namespace CairnRandomizer.Editor
                     EditorGUILayout.BeginHorizontal();
 
                     traitItem.ItemIds[i] = EditorGUILayout.IntField(traitItem.ItemIds[i]);
+                    EditorUtility.SetDirty(editedTable);
 
                     string itemName =
                         equipmentTable.EquipmentList.FirstOrDefault(item => item.Id == traitItem.ItemIds[i])?.Name ??
