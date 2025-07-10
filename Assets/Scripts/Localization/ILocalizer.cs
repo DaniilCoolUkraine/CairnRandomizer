@@ -4,9 +4,9 @@ namespace CairnRandomizer.Localization
 {
     public interface ILocalizer
     {
-        public const string APPEARANCE_TITLE = "<size=32><b>Appearance</b></size>";
-        public const string ATTRIBUTES_TITLE = "<size=32><b>Attributes</b></size>";
-        public const string EQUIPMENT_TITLE = "<size=32><b>Equipment</b></size>";
+        public const string APPEARANCE_TITLE = "Appearance";
+        public const string ATTRIBUTES_TITLE = "Attributes";
+        public const string EQUIPMENT_TITLE = "Equipment";
         public const string LIST_DOT = "•";
         
         public void Initialize();
