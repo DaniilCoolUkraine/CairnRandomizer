@@ -38,7 +38,7 @@ MonoBehaviour:
   - Bald
   - Braided
   - Curly
-  - Filthy
+  - Filthy_h
   - Frizzy
   - Long
   - Luxurious
@@ -71,7 +71,7 @@ MonoBehaviour:
   - Antique
   - Bloody
   - Elegant
-  - Filthy
+  - Filthy_c
   - Foreign
   - Frayed
   - Frumpy

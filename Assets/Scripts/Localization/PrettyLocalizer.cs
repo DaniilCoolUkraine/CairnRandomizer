@@ -89,9 +89,9 @@ namespace CairnRandomizer.Localization
 
             sb.Append($"{GetLocalizedText(SPEECH_INTODUCTION_KEY)} ");
             sb.Append(GetLocalizedText(roll.Speech));
-            sb.Append($" {GetLocalizedText(SPEECH_ENDING_KEY)}.");
+            sb.Append($" {GetLocalizedText(SPEECH_ENDING_KEY)}");
 
-            sb.Append($" {GetLocalizedText(AND_KEY)} ");
+            sb.Append($"{GetLocalizedText(AND_KEY)} ");
 
             sb.Append($"{GetLocalizedText(CLOTHING_INTODUCTION_KEY)} ");
             sb.Append(GetLocalizedText(roll.Clothing));
@@ -109,12 +109,12 @@ namespace CairnRandomizer.Localization
             sb.Append($" {GetLocalizedText(AND_KEY)} ");
 
             sb.Append($"{GetLocalizedText(REPUTATION_INTODUCTION_KEY)} ");
-            sb.AppendLine(GetLocalizedText(roll.Reputation));
+            sb.AppendLine($"{GetLocalizedText(roll.Reputation)}.");
 
             // ------
 
             sb.Append($"{GetLocalizedText(MISFORTUNE_INTODUCTION_KEY)} ");
-            sb.Append(GetLocalizedText(roll.Misfortune));
+            sb.Append($"{GetLocalizedText(roll.Misfortune)}.");
 
             return sb.ToString();
         }
