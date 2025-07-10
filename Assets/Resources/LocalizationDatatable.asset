@@ -34,7 +34,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 284
+      Data: 285
     - Name: 
       Entry: 7
       Data: 
@@ -2782,7 +2782,7 @@ MonoBehaviour:
       Data: uk
     - Name: Text
       Entry: 1
-      Data: "\u041D\u0435\u0440\u043E\u0431\u0430"
+      Data: "\u041D\u0435\u0440\u043E\u0431\u043E\u044E"
     - Name: 
       Entry: 8
       Data: 
@@ -13090,6 +13090,52 @@ MonoBehaviour:
     - Name: Text
       Entry: 1
       Data: "\u0411\u0440\u0443\u0434\u043D\u0435"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Horse
+    - Name: $v
+      Entry: 7
+      Data: 854|System.Collections.Generic.List`1[[CairnRandomizer.Localization.Locale,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 855|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: en
+    - Name: Text
+      Entry: 1
+      Data: Horse
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 856|CairnRandomizer.Localization.Locale, Assembly-CSharp
+    - Name: LanguageCode
+      Entry: 1
+      Data: uk
+    - Name: Text
+      Entry: 1
+      Data: "\u041A\u0456\u043D\u044C"
     - Name: 
       Entry: 8
       Data: 

@@ -13,5 +13,6 @@ namespace CairnRandomizer.RollData
         public FemaleNameDataTable FemaleNameDataTable;
         public SurnameDataTable SurnameDataTable;
         public TraitsDataTable TraitsDataTable;
+        public TraitToEquipment TraitToEquipment;
     }
 }
