@@ -15,6 +15,8 @@ namespace CairnRandomizer
     public class UiManager : MonoBehaviour
     {
         [SerializeField, Required] private Button _rollButton;
+        [SerializeField, Required] private Button _copyButton;
+
         [SerializeField, Required] private CanvasGroup _classButtonsParent;
         [SerializeField, Required] private ClassButton _classButtonPrefab;
 
@@ -25,6 +27,7 @@ namespace CairnRandomizer
         [SerializeField, Required] private TMP_Dropdown _languageDropdown;
 
         private ILocalizer _localizer;
+        private string _allTexts;
 
         private void OnEnable()
         {
@@ -46,6 +49,8 @@ namespace CairnRandomizer
 
         public void Initialize()
         {
+            _copyButton.onClick.AddListener(() => GUIUtility.systemCopyBuffer = _allTexts);
+            
             _localizer = new PrettyLocalizer();
             _localizer.Initialize();
 
@@ -89,16 +94,17 @@ namespace CairnRandomizer
 
         private void OnRollCompletedAndrii(RollCompletedAndrii ev)
         {
-            _appearanceText.text =
-                "Персонаж: " + ev.Character.Preset + "\n" +
-                "Походження: " + ev.Character.Background + 
-                ", Напасть: " + ev.Character.Affliction + 
-                ", Статура: " + ev.Character.Stature + "\n";
+            var appearanceTextText = "Персонаж: " + ev.Character.Preset + "\n" +
+                                     "Походження: " + ev.Character.Background + 
+                                     ", Напасть: " + ev.Character.Affliction + 
+                                     ", Статура: " + ev.Character.Stature + "\n";
+            _appearanceText.text = appearanceTextText;
 
-            _attributesText.text = "ХП: " + ev.Character.HP + 
-                                   ", СИЛ: " + ev.Character.STR + 
-                                   ", СПР: " + ev.Character.DEX + 
-                                   ", ВОЛ: " + ev.Character.WIL + "\n";
+            var attributesTextText = "ХП: " + ev.Character.HP + 
+                                     ", СИЛ: " + ev.Character.STR + 
+                                     ", СПР: " + ev.Character.DEX + 
+                                     ", ВОЛ: " + ev.Character.WIL + "\n";
+            _attributesText.text = attributesTextText;
 
             string inventoryStr = string.Empty;
             for (int i = 0; i < ev.Character.Inventory.Count; i++)
@@ -117,7 +123,9 @@ namespace CairnRandomizer
             inventoryStr += "Броня: " + armorName + ", Зброя: " + weaponName + ", Закляття: " + spellName + "\n";
 
             _equipmentText.text = inventoryStr;
-            
+
+            _allTexts = appearanceTextText + '\n' + attributesTextText + '\n' + inventoryStr;
+
             _classButtonsParent.gameObject.SetActive(false);
         }
     }
