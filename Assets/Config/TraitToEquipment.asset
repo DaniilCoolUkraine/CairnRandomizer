@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75db482e802d418c87827ae09bb0795a, type: 3}
+  m_Name: TraitToEquipment
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  TraitToItemIds:
+  - Trait: Alchemist
+    ItemIds: 1700000036000000
+  - Trait: Blacksmith
+    ItemIds: 1700000056000000
+  - Trait: Butcher
+    ItemIds: 1700000005000000
+  - Trait: Burglar
+    ItemIds: 0000000000000000
+  - Trait: Carpenter
+    ItemIds: 0000000000000000
+  - Trait: Cleric
+    ItemIds: 0000000000000000
+  - Trait: Gambler
+    ItemIds: 0000000000000000
+  - Trait: Gravedigger
+    ItemIds: 0000000000000000
+  - Trait: Herbalist
+    ItemIds: 0000000000000000
+  - Trait: Hunter
+    ItemIds: 0000000000000000
+  - Trait: Magician
+    ItemIds: 0000000000000000
+  - Trait: Mercenary
+    ItemIds: 0000000000000000
+  - Trait: Merchant
+    ItemIds: 0000000000000000
+  - Trait: Miner
+    ItemIds: 0000000000000000
+  - Trait: Outlaw
+    ItemIds: 0000000000000000
+  - Trait: Performer
+    ItemIds: 0000000000000000
+  - Trait: Pickpocket
+    ItemIds: 0000000000000000
+  - Trait: Smuggler
+    ItemIds: 0000000000000000
+  - Trait: Servant
+    ItemIds: 0000000000000000
+  - Trait: Ranger
+    ItemIds: 0000000000000000
+  - Trait: Abandoned
+    ItemIds: 00000000
+  - Trait: Addicted
+    ItemIds: 00000000
+  - Trait: Blackmailed
+    ItemIds: 00000000
+  - Trait: Condemned
+    ItemIds: 00000000
+  - Trait: Cursed
+    ItemIds: 00000000
+  - Trait: Defrauded
+    ItemIds: 00000000
+  - Trait: Demoted
+    ItemIds: 00000000
+  - Trait: Discredited
+    ItemIds: 00000000
+  - Trait: Disowned
+    ItemIds: 00000000
+  - Trait: Exiled
+    ItemIds: 00000000

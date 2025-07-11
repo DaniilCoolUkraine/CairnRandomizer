@@ -17,3 +17,4 @@ MonoBehaviour:
   FemaleNameDataTable: {fileID: 11400000, guid: 088bee95d573f95489ab23c6f7e0b32a, type: 2}
   SurnameDataTable: {fileID: 11400000, guid: 509604b9c9f52f34e99d1c28b0b24cc9, type: 2}
   TraitsDataTable: {fileID: 11400000, guid: e49a30f2ee1ba9743b5c04a42cc17b92, type: 2}
+  TraitToEquipment: {fileID: 11400000, guid: 3d5e08fa930d59344b83c317be925918, type: 2}

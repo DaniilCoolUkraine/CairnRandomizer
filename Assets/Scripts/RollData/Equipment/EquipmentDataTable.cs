@@ -8,7 +8,7 @@ namespace CairnRandomizer.RollData.Equipment
     [CreateAssetMenu(fileName = nameof(EquipmentDataTable), menuName = "RollData/"+nameof(EquipmentDataTable))]
     public class EquipmentDataTable : ScriptableObject
     {
-        [SerializeReference] public List<EquipmentData> EquipmentList;
+        [SerializeReference, Searchable] public List<EquipmentData> EquipmentList;
 
         private void OnValidate()
         {

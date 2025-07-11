@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using CairnRandomizer.AndriiGenerator;
 using CairnRandomizer.General;
 using CairnRandomizer.RollData;
 using CairnRandomizer.RollGenerators;
@@ -18,12 +19,12 @@ namespace CairnRandomizer
 
         private void OnEnable()
         {
-            GlobalEvents.AddListener<RollRequested>(OnRollRequested);
+            GlobalEvents.AddListener<RollRequested>(OnRollRequestedAndrii);
         }
 
         private void OnDisable()
         {
-            GlobalEvents.RemoveListener<RollRequested>(OnRollRequested);
+            GlobalEvents.RemoveListener<RollRequested>(OnRollRequestedAndrii);
         }
 
         public void Initialize()
@@ -42,6 +43,15 @@ namespace CairnRandomizer
             rollsData.Add(_equipmentRollGenerator.Roll(_rollDataTable));
 
             var rollsFinishedEv = new RollCompleted(rollsData);
+            GlobalEvents.Publish(rollsFinishedEv);
+        }
+
+        private void OnRollRequestedAndrii(RollRequested ev)
+        {
+            var character = new Character();
+            character.GenerateCharacter(ev.CharacterPresetType);
+
+            var rollsFinishedEv = new RollCompletedAndrii(character);
             GlobalEvents.Publish(rollsFinishedEv);
         }
     }

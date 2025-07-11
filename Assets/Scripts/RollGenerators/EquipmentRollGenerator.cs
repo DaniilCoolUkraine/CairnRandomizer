@@ -40,20 +40,38 @@ namespace CairnRandomizer.RollGenerators
             // roll for weapon
             _items.Add(RollForWeapon(dataTable.EquipmentDataTable.EquipmentList));
 
-            // roll for gear
-            _items.Add(dataTable.EquipmentDataTable.EquipmentList
-                .Where(e => e is GearData)
-                .ToList().GetRandomElement());
-            
-            // roll for tool
-            _items.Add(dataTable.EquipmentDataTable.EquipmentList
-                .Where(e => e is ToolData)
-                .ToList().GetRandomElement());
+            if (string.IsNullOrWhiteSpace(_misfortune) || string.IsNullOrWhiteSpace(_background))
+            {
+                // roll for gear
+                _items.Add(dataTable.EquipmentDataTable.EquipmentList
+                    .Where(e => e is GearData)
+                    .ToList().GetRandomElement());
 
-            // roll for trinkets
-            _items.Add(dataTable.EquipmentDataTable.EquipmentList
-                .Where(e => e is TrinketsData)
-                .ToList().GetRandomElement());
+                // roll for tool
+                _items.Add(dataTable.EquipmentDataTable.EquipmentList
+                    .Where(e => e is ToolData)
+                    .ToList().GetRandomElement());
+
+                // roll for trinkets
+                _items.Add(dataTable.EquipmentDataTable.EquipmentList
+                    .Where(e => e is TrinketsData)
+                    .ToList().GetRandomElement());
+            }
+            else
+            {
+                var itemsId = dataTable.TraitToEquipment.TraitToItemIds.FirstOrDefault(t => t.Trait == _misfortune).ItemIds;
+                var item = dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(i => i.Id == itemsId.GetRandomElement());
+
+                _items.Add(item);
+
+                itemsId = dataTable.TraitToEquipment.TraitToItemIds.FirstOrDefault(t => t.Trait == _background).ItemIds;
+
+                foreach (int id in itemsId)
+                {
+                    item = dataTable.EquipmentDataTable.EquipmentList.FirstOrDefault(i => i.Id == id);
+                    _items.Add(item);
+                }
+            }
 
             // TODO roll for bonus item
 
