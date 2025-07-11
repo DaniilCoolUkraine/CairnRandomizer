@@ -17,6 +17,12 @@ namespace CairnRandomizer.General
     
     public class RollRequested : IEvent
     {
+        public RollRequested(CharacterPresetType characterPresetType)
+        {
+            CharacterPresetType = characterPresetType;
+        }
+
+        public CharacterPresetType CharacterPresetType { get; private set; }
     }
 
     public class RollCompleted : IEvent

@@ -49,7 +49,7 @@ namespace CairnRandomizer
         private void OnRollRequestedAndrii(RollRequested ev)
         {
             var character = new Character();
-            character.GenerateCharacter(CharacterPresetType.Рандомний);
+            character.GenerateCharacter(ev.CharacterPresetType);
 
             var rollsFinishedEv = new RollCompletedAndrii(character);
             GlobalEvents.Publish(rollsFinishedEv);

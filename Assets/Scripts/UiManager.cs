@@ -1,7 +1,9 @@
 using System.Linq;
+using CairnRandomizer.AndriiGenerator;
 using CairnRandomizer.General;
 using CairnRandomizer.Localization;
 using CairnRandomizer.RollGenerators.GeneratorData;
+using CairnRandomizer.UI;
 using SimpleEventBus.SimpleEventBus.Runtime;
 using Sirenix.OdinInspector;
 using TMPro;
@@ -13,6 +15,8 @@ namespace CairnRandomizer
     public class UiManager : MonoBehaviour
     {
         [SerializeField, Required] private Button _rollButton;
+        [SerializeField, Required] private CanvasGroup _classButtonsParent;
+        [SerializeField, Required] private ClassButton _classButtonPrefab;
 
         [SerializeField, Required] private TextMeshProUGUI _appearanceText;
         [SerializeField, Required] private TextMeshProUGUI _attributesText;
@@ -45,12 +49,23 @@ namespace CairnRandomizer
             _localizer = new PrettyLocalizer();
             _localizer.Initialize();
 
+            InitializeClassButtons();
+            
             OnRollButtonClicked();
         }
-        
+
+        private void InitializeClassButtons()
+        {
+            foreach (CharacterPresetType preset in System.Enum.GetValues(typeof(CharacterPresetType)))
+            {
+                var button = Instantiate(_classButtonPrefab, _classButtonsParent.transform);
+                button.Initialize(preset);
+            }
+        }
+
         private void OnRollButtonClicked()
         {
-            GlobalEvents.Publish(new RollRequested());
+            _classButtonsParent.gameObject.SetActive(true);
         }
         
         private void OnLanguageChanged(int arg)
@@ -68,6 +83,8 @@ namespace CairnRandomizer
             _appearanceText.text = _localizer.GetAppearanceText(appearanceRoll);
             _attributesText.text = _localizer.GetStatsText(statsRoll);
             _equipmentText.text = _localizer.GetEquipmentText(equipmentRoll);
+
+            _classButtonsParent.gameObject.SetActive(false);
         }
 
         private void OnRollCompletedAndrii(RollCompletedAndrii ev)
@@ -100,6 +117,8 @@ namespace CairnRandomizer
             inventoryStr += "Броня: " + armorName + ", Зброя: " + weaponName + ", Закляття: " + spellName + "\n";
 
             _equipmentText.text = inventoryStr;
+            
+            _classButtonsParent.gameObject.SetActive(false);
         }
     }
 }
