@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using CairnRandomizer.AndriiGenerator;
 using CairnRandomizer.RollGenerators.GeneratorData;
 using SimpleEventBus.SimpleEventBus.Runtime;
 
@@ -25,6 +26,16 @@ namespace CairnRandomizer.General
         public RollCompleted(IReadOnlyList<IRollData> rollData)
         {
             RollData = rollData;
+        }
+    }
+    
+    public class RollCompletedAndrii : IEvent
+    {
+        public Character Character { get; }
+
+        public RollCompletedAndrii(Character character)
+        {
+            Character = character;
         }
     }
 

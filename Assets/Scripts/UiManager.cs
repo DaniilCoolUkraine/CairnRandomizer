@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using CairnRandomizer.General;
 using CairnRandomizer.Localization;
@@ -29,6 +28,7 @@ namespace CairnRandomizer
             _languageDropdown.onValueChanged.AddListener(OnLanguageChanged);
             
             GlobalEvents.AddListener<RollCompleted>(OnRollCompleted);
+            GlobalEvents.AddListener<RollCompletedAndrii>(OnRollCompletedAndrii);
         }
 
         private void OnDisable()
@@ -37,6 +37,7 @@ namespace CairnRandomizer
             _languageDropdown.onValueChanged.RemoveListener(OnLanguageChanged);
             
             GlobalEvents.RemoveListener<RollCompleted>(OnRollCompleted);
+            GlobalEvents.RemoveListener<RollCompletedAndrii>(OnRollCompletedAndrii);
         }
 
         public void Initialize()
@@ -67,6 +68,38 @@ namespace CairnRandomizer
             _appearanceText.text = _localizer.GetAppearanceText(appearanceRoll);
             _attributesText.text = _localizer.GetStatsText(statsRoll);
             _equipmentText.text = _localizer.GetEquipmentText(equipmentRoll);
+        }
+
+        private void OnRollCompletedAndrii(RollCompletedAndrii ev)
+        {
+            _appearanceText.text =
+                "Персонаж: " + ev.Character.Preset + "\n" +
+                "Походження: " + ev.Character.Background + 
+                ", Напасть: " + ev.Character.Affliction + 
+                ", Статура: " + ev.Character.Stature + "\n";
+
+            _attributesText.text = "ХП: " + ev.Character.HP + 
+                                   ", СИЛ: " + ev.Character.STR + 
+                                   ", СПР: " + ev.Character.DEX + 
+                                   ", ВОЛ: " + ev.Character.WIL + "\n";
+
+            string inventoryStr = string.Empty;
+            for (int i = 0; i < ev.Character.Inventory.Count; i++)
+            {
+                inventoryStr += ev.Character.Inventory[i].Name;
+                if (i < ev.Character.Inventory.Count - 1)
+                    inventoryStr += ", ";
+            }
+
+            inventoryStr += "\n";
+
+            string weaponName = (ev.Character.Weapon != null) ? ev.Character.Weapon.Name : "Немає";
+            string spellName = (ev.Character.Spell != null) ? ev.Character.Spell.Name : "Немає";
+            string armorName = (ev.Character.Armor != null) ? ev.Character.Armor.Name + " (" + ev.Character.Armor.ArmorAmount + ")" : "Немає";
+
+            inventoryStr += "Броня: " + armorName + ", Зброя: " + weaponName + ", Закляття: " + spellName + "\n";
+
+            _equipmentText.text = inventoryStr;
         }
     }
 }
