@@ -1,5 +1,4 @@
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
 namespace CairnRandomizer.AndriiGenerator
 {
@@ -13,9 +12,9 @@ namespace CairnRandomizer.AndriiGenerator
         public Weapon Weapon;
         public Spell Spell;
         public List<Item> Inventory = new List<Item>();
-        public string Stature;
-
-        public void GenerateCharacter(CharacterPresetType presetType)
+        public Traits Traits;
+    
+        public void GenerateCharacter(CharacterPresetType presetType, Gender gen = Gender.Male)
         {
             CharacterPreset preset = DataLibrary.GetPreset(presetType);
             this.Preset = presetType;
@@ -29,7 +28,7 @@ namespace CairnRandomizer.AndriiGenerator
                 rolls.Sort();
                 rolls.Reverse();
             }
-            Debug.Log("Rolls: " + rolls[0] + ", " + rolls[1] + ", " + rolls[2] + ", " + rolls[3] + ", ");
+            //Debug.Log("Rolls: " + rolls[0] + ", " + rolls[1] + ", " + rolls[2] + ", " + rolls[3] + ", ");
 
             HP = UtilityFunctions.CeilDiv(rolls[preset.AttributeOrder[0]], 3);
             STR = rolls[preset.AttributeOrder[1]];
@@ -59,7 +58,8 @@ namespace CairnRandomizer.AndriiGenerator
             Inventory.AddRange(DataLibrary.GetRandomItems(3));
 
             // Статура
-            Stature = UtilityFunctions.GetRandomStature();
+            Traits = Traits.GetRandomTraits(gen);
+
         }
     }
 }

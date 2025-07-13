@@ -14,6 +14,16 @@ namespace CairnRandomizer.General
             LanguageCode = languageCode;
         }
     }
+
+    public class GenderChanged : IEvent
+    {
+        public Gender Gender { get; }
+
+        public GenderChanged(Gender gender)
+        {
+            Gender = gender;
+        }
+    }
     
     public class RollRequested : IEvent
     {

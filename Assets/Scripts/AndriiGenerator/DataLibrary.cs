@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace CairnRandomizer.AndriiGenerator
 {
@@ -10,6 +10,21 @@ namespace CairnRandomizer.AndriiGenerator
         private static List<Weapon> weapons = null;
         private static List<Spell> spells = null;
         private static List<Item> genericItems = null;
+
+        public static bool TraitsInitialized = false;
+        public static List<string> MaleNames;
+        public static List<string> FemaleNames;
+        public static List<string> LastNames;
+        public static List<string> Builds;
+        public static List<string> Faces;
+        public static List<string> Skins;
+        public static List<string> Speeches;
+        public static List<string> Hairs;
+        public static List<string> Clothings;
+        public static List<string> Virtues;
+        public static List<string> Reputations;
+        public static List<string> Flaws;
+    
 
         public static CharacterPreset GetPreset(CharacterPresetType type)
         {
@@ -107,20 +122,21 @@ namespace CairnRandomizer.AndriiGenerator
             };
         }
 
+
         private static void InitAfflictions()
         {
             afflictions = new List<Affliction>();
 
-            afflictions.Add(new Affliction("Покинутий"));
-            afflictions.Add(new Affliction("Залежність"));
-            afflictions.Add(new Affliction("Шантажований"));
-            afflictions.Add(new Affliction("Засуджений"));
-            afflictions.Add(new Affliction("Проклятий"));
-            afflictions.Add(new Affliction("Ошуканий"));
-            afflictions.Add(new Affliction("Розжалуваний"));
-            afflictions.Add(new Affliction("Дискредитований"));
-            afflictions.Add(new Affliction("Від нього відреклися"));
-            afflictions.Add(new Affliction("Вигнанець"));
+            afflictions.Add(new Affliction("Покинут"));
+            afflictions.Add(new Affliction("Залежн"));
+            afflictions.Add(new Affliction("Шантажован"));
+            afflictions.Add(new Affliction("Засуджен"));
+            afflictions.Add(new Affliction("Проклят"));
+            afflictions.Add(new Affliction("Ошукан"));
+            afflictions.Add(new Affliction("Розжалуван"));
+            afflictions.Add(new Affliction("Дискредитован"));
+            afflictions.Add(new Affliction("Батьками відречен"));
+            afflictions.Add(new Affliction("Вигнан"));
         }
         private static void InitBackgrounds()
         {
@@ -315,6 +331,63 @@ namespace CairnRandomizer.AndriiGenerator
             genericItems.Add(new Item { Name = "Дзвоник" });
         }
 
+        public static void InitTraits()
+        {
+            MaleNames = new List<string> {
+                "Грінгл", "Брейір", "Етекс", "Йірмеор", "Клюд", "Брігл", "Мелнакс", "Манног", "Арвель", "Венлан",
+                "Квінглід", "Теглід", "Грувід", "Борот", "Боррід", "Грют", "Грінвіт", "Бреглор", "Орвакс", "Канхореал"
+            };
+
+            FemaleNames = new List<string> {
+                "Моргвен", "Мораліл", "Венен", "Іслен", "Есме", "Дреліл", "Тегвін", "Бріган", "Ліратл", "Агуне",
+                "Ліранн", "Лізабет", "Хенайн", "Беатріче", "Венлан", "Елгіг", "Каннора", "Ігвал", "Теун", "Грія"
+            };
+
+            LastNames = new List<string> {
+                "Кормік", "Абераті", "Крамволлер", "Гласс", "Гетрі", "Вівілмен", "Лумер", "Берл", "Волдер", "Малксмілк",
+                "Аддеркап", "Дюонсвеллоу", "Смайт", "Толмен", "Свінні", "Тетчер", "Харпер", "Кенлвік", "Харкнесс", "Сандермен"
+            };
+
+            Builds = new List<string> {
+                "статне", "мускулясте", "високе", "кремезне", "кострубате", "атлетичне", "довгов’язе", "низьке", "сухорляве", "в’яле"
+            };
+
+            Faces = new List<string> {
+                "Точене", "Квадратне", "Кістляве", "Гостре", "Запале", "Видовжене", "Розбите", "М’яке", "Пацюкоподібне", "Кругле"
+            };
+
+            Skins = new List<string> {
+                "Темна", "Родимкова", "Засмагла", "Ряба", "Обвітрена", "Жирна", "Бліда", "Ідеальна", "Рожева", "Татуюйована"
+            };
+
+            Speeches = new List<string> {
+                "Грубувато", "Гуркочуче", "Деренчливо", "Як гравій", "Таємниче", "Формально", "Заїкаючись", "Точно", "Скрипуче", "Пошепки"
+            };
+
+            Hairs = new List<string> {
+                "Коротке", "Заплетене", "Жирне", "Хвилясте", "Кучеряве", "Довге", "Клочкувате", "Брудне", "Кудряве", "Розкішне"
+            };
+
+            Clothings = new List<string> {
+                "Старий", "Закривавлений", "Прогірклий", "Брудний", "Дурнуватий", "Елегантний", "Потертий", "Смердючий", "Ліврея", "Паскудний"
+            };
+
+            Virtues = new List<string> {
+                "Амбітн", "Смілив", "Дисциплінован", "Шанован", "Спокійн", "Милосердн", "Скромн", "Терпляч", "Компанійськ", "Обережн"
+            };
+    
+            Reputations = new List<string> {
+                "Дивакуват", "Мудр", "Поважн", "Амбітн", "Огидн", "Небезпечн", "Чесн", "Хамовит", "Нероб", "Артистичн"
+            };
+
+            Flaws = new List<string> {
+                "Агресивн", "Гірк", "Боягузн", "Віроломн", "Жадібн", "Мстив", "Ледач", "Нервов", "Груб", "Марнославн"
+            };
+        }
+
+
+
+
         public static Weapon GetRandomWeapon(Weapon.WeaponType type)
         {
             if (weapons == null)
@@ -399,6 +472,7 @@ namespace CairnRandomizer.AndriiGenerator
             return afflictions[index];
         }
 
+
         public static List<Item> GetItemsFromAffliction(Affliction aff)
         {
             List<Item> list = new List<Item>();
@@ -477,6 +551,12 @@ namespace CairnRandomizer.AndriiGenerator
 
             return result;
         }
+
+        public static string GetRandomFromList(List<string> list)
+        {
+            return list[UnityEngine.Random.Range(0, list.Count)];
+        }
+
     }
 }
 
