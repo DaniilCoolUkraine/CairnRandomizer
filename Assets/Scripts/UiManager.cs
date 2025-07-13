@@ -17,6 +17,8 @@ namespace CairnRandomizer
         [SerializeField, Required] private Button _rollButton;
         [SerializeField, Required] private Button _copyButton;
 
+        [SerializeField, Required] private Toggle _genderToggle;
+
         [SerializeField, Required] private CanvasGroup _classButtonsParent;
         [SerializeField, Required] private ClassButton _classButtonPrefab;
 
@@ -33,7 +35,8 @@ namespace CairnRandomizer
         {
             _rollButton.onClick.AddListener(OnRollButtonClicked);
             _languageDropdown.onValueChanged.AddListener(OnLanguageChanged);
-            
+            _genderToggle.onValueChanged.AddListener(OnGenderChanged);
+
             GlobalEvents.AddListener<RollCompleted>(OnRollCompleted);
             GlobalEvents.AddListener<RollCompletedAndrii>(OnRollCompletedAndrii);
         }
@@ -42,7 +45,8 @@ namespace CairnRandomizer
         {
             _rollButton.onClick.RemoveListener(OnRollButtonClicked);
             _languageDropdown.onValueChanged.RemoveListener(OnLanguageChanged);
-            
+            _genderToggle.onValueChanged.RemoveListener(OnGenderChanged);
+
             GlobalEvents.RemoveListener<RollCompleted>(OnRollCompleted);
             GlobalEvents.RemoveListener<RollCompletedAndrii>(OnRollCompletedAndrii);
         }
@@ -78,7 +82,13 @@ namespace CairnRandomizer
             var ev = new LocalizationChanged(_languageDropdown.options[arg].text);
             GlobalEvents.Publish(ev);
         }
-        
+
+        private void OnGenderChanged(bool arg)
+        {
+            var ev = new GenderChanged(arg ? Gender.Male : Gender.Female);
+            GlobalEvents.Publish(ev);
+        }
+
         private void OnRollCompleted(RollCompleted ev)
         {
             var appearanceRoll = ev.RollData.FirstOrDefault(r => r is AppearanceRollData) as AppearanceRollData;
@@ -94,39 +104,94 @@ namespace CairnRandomizer
 
         private void OnRollCompletedAndrii(RollCompletedAndrii ev)
         {
-            var appearanceTextText = "Персонаж: " + ev.Character.Preset + "\n" +
-                                     "Походження: " + ev.Character.Background + 
-                                     ", Напасть: " + ev.Character.Affliction + 
-                                     ", Статура: " + ev.Character.Stature + "\n";
-            _appearanceText.text = appearanceTextText;
+            var appearanceText = GetAppearanceText(ev.Character);
+            var attributesText = GetAttributesText(ev.Character);
+            var inventoryText = GetInventoryText(ev.Character);
 
-            var attributesTextText = "ХП: " + ev.Character.HP + 
-                                     ", СИЛ: " + ev.Character.STR + 
-                                     ", СПР: " + ev.Character.DEX + 
-                                     ", ВОЛ: " + ev.Character.WIL + "\n";
-            _attributesText.text = attributesTextText;
+            _appearanceText.text = appearanceText;
+            _attributesText.text = attributesText;
+            _equipmentText.text = inventoryText;
 
-            string inventoryStr = string.Empty;
-            for (int i = 0; i < ev.Character.Inventory.Count; i++)
-            {
-                inventoryStr += ev.Character.Inventory[i].Name;
-                if (i < ev.Character.Inventory.Count - 1)
-                    inventoryStr += ", ";
-            }
-
-            inventoryStr += "\n";
-
-            string weaponName = (ev.Character.Weapon != null) ? ev.Character.Weapon.Name : "Немає";
-            string spellName = (ev.Character.Spell != null) ? ev.Character.Spell.Name : "Немає";
-            string armorName = (ev.Character.Armor != null) ? ev.Character.Armor.Name + " (" + ev.Character.Armor.ArmorAmount + ")" : "Немає";
-
-            inventoryStr += "Броня: " + armorName + ", Зброя: " + weaponName + ", Закляття: " + spellName + "\n";
-
-            _equipmentText.text = inventoryStr;
-
-            _allTexts = appearanceTextText + '\n' + attributesTextText + '\n' + inventoryStr;
+            _allTexts = appearanceText + '\n' + attributesText + '\n' + inventoryText;
 
             _classButtonsParent.gameObject.SetActive(false);
+        }
+
+        private string GetAppearanceText(Character ch)
+        {
+            bool isFemale = ch.Traits.Gender == Gender.Female;
+            string pronoun = isFemale ? "вона" : "він";
+            string possPronoun = isFemale ? "її" : "його";
+            string bePast = isFemale ? "була" : "був";
+            string ageWord = isFemale ? "їй" : "йому";
+            string dressed = isFemale ? "вдягнена" : "вдягнений";
+
+            int age = UtilityFunctions.Roll3d6() + 20;
+
+            // Заголовок
+
+            string introPhrase = isFemale ? "Її звуть" : "Його звуть";
+
+            string result = string.Format(
+                "{0} <b>{1} {2}</b>, {3} {4} років. {5} <b>{6}</b>. Раніше {7} {8} <b>{9}</b>.\n\n",
+                introPhrase,
+                ch.Traits.FirstName,
+                ch.Traits.LastName,
+                ageWord,
+                age,
+                char.ToUpper(pronoun[0]) + pronoun.Substring(1),
+                ch.Preset.ToString(),
+                pronoun,
+                bePast,
+                ch.Background
+            );
+
+
+            // Статура та зовнішність
+            result += "Має <b>" + ch.Traits.Build.ToLower() + "</b> тіло, ";
+            result += "шкіра <b>" + ch.Traits.Skin.ToLower() + "</b>, ";
+            result += "волосся <b>" + ch.Traits.Hair.ToLower() + "</b> і ";
+            result += "обличчя <b>" + ch.Traits.Face.ToLower() + "</b>.\n";
+            result += char.ToUpper(pronoun[0]) + pronoun.Substring(1) + " <b>" + ch.Traits.Speech.ToLower() + "</b> розмовляє і " + dressed + " у <b>" + ch.Traits.Clothing.ToLower() + "</b> одяг.\n\n";
+
+            // Чеснота, вада, репутація, напасть
+            string ending = (ch.Traits.Gender == Gender.Female) ? "а" : "ий";
+            string virtue = ch.Traits.Virtue.ToLower() + ending;
+            string flaw = ch.Traits.Flaw.ToLower() + ending;
+            string reputation = ch.Traits.Reputation.ToLower() + ending;
+            string affliction = ch.Affliction + ending;
+
+            result += char.ToUpper(pronoun[0]) + pronoun.Substring(1) + " вельми <b>" + virtue + "</b>, а " + possPronoun + " головна вада – <b>" + flaw + "</b>.\n";
+            result += "Має репутацію <b>" + reputation + "</b>. " + possPronoun + " напасть – <b>" + affliction + "</b>.\n\n";
+
+            return result;
+        }
+
+        private static string GetAttributesText(Character ch)
+        {
+            return "ХП: " + ch.HP + 
+                   ", СИЛ: " + ch.STR + 
+                   ", СПР: " + ch.DEX + 
+                   ", ВОЛ: " + ch.WIL + "\n";
+        }
+
+        private string GetInventoryText(Character ch)
+        {
+            var result = "Майно:\n";
+
+            foreach (var item in ch.Inventory) 
+                result += "• " + item.Name + "\n";
+
+            if (ch.Armor != null && !ch.Inventory.Contains(ch.Armor))
+                result += "• <b>Броня: " + ch.Armor.Name + " (" + ch.Armor.ArmorAmount + " броні)</b>\n";
+
+            if (ch.Weapon != null && !ch.Inventory.Contains(ch.Weapon))
+                result += "• <b>Зброя: " + ch.Weapon.Name + "</b>\n";
+
+            if (ch.Spell != null && !ch.Inventory.Contains(ch.Spell))
+                result += "• <b>Закляття: " + ch.Spell.Name + "</b>\n";
+
+            return result;
         }
     }
 }

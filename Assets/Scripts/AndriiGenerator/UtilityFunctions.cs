@@ -1,4 +1,4 @@
-namespace CairnRandomizer.AndriiGenerator
+﻿namespace CairnRandomizer.AndriiGenerator
 {
     public static class UtilityFunctions
     {
@@ -12,12 +12,6 @@ namespace CairnRandomizer.AndriiGenerator
         public static int CeilDiv(int x, int div)
         {
             return (x + div - 1) / div;
-        }
-
-        public static string GetRandomStature()
-        {
-            string[] options = { "Низький", "Середній", "Високий" };
-            return options[UnityEngine.Random.Range(0, options.Length)];
         }
     }
 }

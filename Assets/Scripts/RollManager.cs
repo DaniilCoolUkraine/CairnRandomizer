@@ -17,14 +17,18 @@ namespace CairnRandomizer
         private IRollGenerator _statsRollGenerator;
         private IRollGenerator _equipmentRollGenerator;
 
+        private Gender _gender = Gender.Male;
+        
         private void OnEnable()
         {
             GlobalEvents.AddListener<RollRequested>(OnRollRequestedAndrii);
+            GlobalEvents.AddListener<GenderChanged>(OnGenderChanged);
         }
 
         private void OnDisable()
         {
             GlobalEvents.RemoveListener<RollRequested>(OnRollRequestedAndrii);
+            GlobalEvents.RemoveListener<GenderChanged>(OnGenderChanged);
         }
 
         public void Initialize()
@@ -32,6 +36,11 @@ namespace CairnRandomizer
             _appearanceRollGenerator =  new AppearanceRollGenerator();
             _statsRollGenerator =  new StatsRollGenerator();
             _equipmentRollGenerator =  new EquipmentRollGenerator();
+        }
+        
+        private void OnGenderChanged(GenderChanged ev)
+        {
+            _gender = ev.Gender;
         }
         
         private void OnRollRequested(RollRequested ev)
@@ -49,7 +58,7 @@ namespace CairnRandomizer
         private void OnRollRequestedAndrii(RollRequested ev)
         {
             var character = new Character();
-            character.GenerateCharacter(ev.CharacterPresetType);
+            character.GenerateCharacter(ev.CharacterPresetType, _gender);
 
             var rollsFinishedEv = new RollCompletedAndrii(character);
             GlobalEvents.Publish(rollsFinishedEv);
